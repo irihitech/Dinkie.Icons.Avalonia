@@ -1,0 +1,24 @@
+<UserControl
+    x:Class="Dinkie.Icons.DinkieIcon"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Dinkie.Icons"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Foreground="Black"
+    mc:Ignorable="d">
+    <UserControl.Template>
+        <ControlTemplate TargetType="{x:Type local:DinkieIcon}">
+            <Border Background="{TemplateBinding Background}">
+                <Viewbox Width="{TemplateBinding IconSize}" Height="{TemplateBinding IconSize}">
+                    <Path
+                        Data="{TemplateBinding Data}"
+                        Fill="{TemplateBinding Foreground}"
+                        Stretch="Uniform" />
+                </Viewbox>
+            </Border>
+        </ControlTemplate>
+    </UserControl.Template>
+</UserControl>

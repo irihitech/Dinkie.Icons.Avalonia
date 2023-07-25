@@ -1,0 +1,1530 @@
+namespace Dinkie.Icons;
+
+internal static class IconDataFactory
+{
+    internal static IDictionary<DinkieIconName, string> Create() => new Dictionary<DinkieIconName, string>()
+    {
+        {
+            DinkieIconName.Volcano12,
+            "M3 12h8v-2h-1V9H9V7H8V5H7v4h1v1h1v1H8v-1H7V9H6V6H5v4H4v1H3Zm-3 0h2v-1h1V9h1V5H3v2H2v2H1v2H0Zm0-9h1V2H0Zm1 1h3V3H1Zm0-2h1V1H1Zm4 3h1V4H5ZM3 2h2V1H3Zm2 1h1V2H5Zm1 1h1V3H6Zm1-2h1V1H7Zm1 1h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.EarthGlobeAsiaAustralia12,
+            "M2 11h1v-1h5v1h1v-1h1V9h1V4h-1V3H9V2H8v1H7v2H6v1H5v1H4V6H3V5H2v3H1V4H0v5h1v1h1Zm1 1h5v-1H3ZM1 4h1V3H1Zm5 5V8h1V7h1v1h1v1ZM2 3h1V2H2Zm7 4V6h1v1ZM3 2h5V1H3Zm0 0"
+        },
+        {
+            DinkieIconName.GlobeMeridians12,
+            "M3 4h2V2h1v2h2V3H7V2h1V1H3v1h1v1H3Zm-1 7h1v-1H2Zm-1-1h1V9H1ZM0 9h1V8h1V7H1V6h1V5H1V4H0Zm3 3h5v-1H7v-1h1V9H6v2H5V9H3v1h1v1H3Zm0-4h2V7H3ZM1 4h1V3H1Zm7 7h1v-1H8ZM3 6h2V5H3Zm3 2h2V7H6Zm3 2h1V9H9ZM2 3h1V2H2Zm4 3h2V5H6Zm4 3h1V4h-1v1H9v1h1v1H9v1h1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.GlobeMeridians10,
+            "M3 3h1V2h1v1h1V2h1V1H2v1h1ZM1 9h1V8H1ZM0 7h1V6H0Zm2 3h5V9H6V8H5v1H4V8H3v1H2ZM0 5h1V4H0Zm2 2h2V6H2Zm0-2h2V4H2ZM1 3h1V2H1Zm6 6h1V8H7ZM5 7h2V6H5Zm0-2h2V4H5Zm3 2h1V6H8Zm0-2h1V4H8ZM7 3h1V2H7Zm0 0"
+        },
+        { DinkieIconName.NewMoonSymbol12, "M3 12h5v-1h1v-1h1V9h1V4h-1V3H9V2H8V1H3v1H2v1H1v1H0v5h1v1h1v1h1Zm0 0" },
+        {
+            DinkieIconName.WaxingCrescentMoonSymbol12,
+            "M3 12h5v-1H6v-1h1V9h1V4H7V3H6V2h2V1H3v1H2v1H1v1H0v5h1v1h1v1h1Zm5-1h1v-1H8Zm1-1h1V9H9Zm1-1h1V4h-1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.FirstQuarterMoonSymbol12,
+            "M3 12h5v-1H6V2h2V1H3v1H2v1H1v1H0v5h1v1h1v1h1Zm5-1h1v-1H8Zm1-1h1V9H9Zm1-1h1V4h-1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.WaxingGibbousMoonSymbol12,
+            "M3 12h5v-1H5v-1H4V9H3V4h1V3h1V2h3V1H3v1H2v1H1v1H0v5h1v1h1v1h1Zm5-1h1v-1H8Zm1-1h1V9H9Zm1-1h1V4h-1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.FullMoonSymbol12,
+            "M10 9H9v1h1Zm0 0h1V4h-1Zm-8 2h1v-1H2Zm-1-1h1V9H1ZM0 9h1V4H0Zm3 3h5v-1H3ZM1 4h1V3H1Zm7 7h1v-1H8ZM2 3h1V2H2Zm1-1h5V1H3Zm5 1h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.WaningGibbousMoonSymbol12,
+            "M3 12h5v-1h1v-1h1V9h1V4h-1V3H9V2H8V1H3v1h3v1h1v1h1v5H7v1H6v1H3Zm-1-1h1v-1H2Zm-1-1h1V9H1ZM0 9h1V4H0Zm1-5h1V3H1Zm1-1h1V2H2Zm0 0"
+        },
+        {
+            DinkieIconName.LastQuarterMoonSymbol12,
+            "M3 12h5v-1h1v-1h1V9h1V4h-1V3H9V2H8V1H3v1h2v9H3Zm-1-1h1v-1H2Zm-1-1h1V9H1ZM0 9h1V4H0Zm1-5h1V3H1Zm1-1h1V2H2Zm0 0"
+        },
+        {
+            DinkieIconName.WaningCrescentMoonSymbol12,
+            "M3 12h5v-1h1v-1h1V9h1V4h-1V3H9V2H8V1H3v1h2v1H4v1H3v5h1v1h1v1H3Zm-1-1h1v-1H2Zm-1-1h1V9H1ZM0 9h1V4H0Zm1-5h1V3H1Zm1-1h1V2H2Zm0 0"
+        },
+        {
+            DinkieIconName.CrescentMoon12,
+            "M6 3h1V2h1V1H5v1h1Zm-5 7h1V9H1Zm1 1h1v-1H2ZM0 9h1V8h1V7H1V6H0Zm3 3h5v-1H3ZM2 9h4V8H2Zm6 2h1v-1H8ZM6 8h1V7H6Zm3 2h1V9H9ZM7 7h1V3H7Zm3 2h1V4h-1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.GlowingStar12,
+            "M8 7H7v2H6v1h1v1h1Zm0 0h1V6h1V5H7V4H6v2h2Zm-8 5h1v-1H0Zm1-1h1v-1H1Zm2 0h1v-1h1V9H4V7H3Zm2-2h1V8H5ZM2 7h1V6h2V4H4v1H1v1h1ZM1 4h1V3H1ZM0 3h1V2H0Zm10 9h1v-1h-1Zm-1-1h1v-1H9ZM5 4h1V2H5Zm4 0h1V3H9Zm1-1h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.Thermometer12,
+            "M7 12h3v-1h1V8h-1v1H9V8h1V7H8v1H7v1H6v2h1ZM1 5h1V4H1Zm1 1h1V5H2Zm1 1h1V6H3Zm1 1h1V7H4Zm1 1h1V8H5ZM0 4h1V2H0Zm6 4h1V7H6ZM5 7h1V6H5ZM4 6h1V5H4ZM1 2h2V1H1Zm6 5h1V6H7ZM6 6h1V5H6ZM5 5h1V4H5ZM4 4h1V3H4ZM3 3h1V2H3Zm0 0"
+        },
+        {
+            DinkieIconName.Chestnut12,
+            "M1 8h1V5h7v3h1V5h1V3h-1v1H1V3H0v2h1Zm2 3h1v-1H3Zm-1-1h1V8H2Zm2 2h3v-1H4Zm3-1h1v-1H7Zm1-1h1V8H8ZM1 3h9V2H6V1H5v1H1Zm0 0"
+        },
+        {
+            DinkieIconName.Seedling12,
+            "M4 6H2v1h2Zm0 0h2V5h2V4H6V3H5v2H4ZM0 9h1V8h1V7H1V5H0Zm5 3h2V6H6v4H5ZM1 5h3V4H1Zm5-2h1V2H6Zm2 1h1V3H8ZM7 2h2V1H7Zm2 1h2V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.EvergreenTree12,
+            "M4 12h3v-2h3V8H9v1H8V8H7v1H6V8H5v1H2V8H1v2h3ZM2 8h1V7H2Zm3 3v-1h1v1ZM3 7h1V6H3ZM2 6h1V5H2Zm3 1h1V6H5Zm1 1h1V7H6ZM3 5h1V4H3Zm4 2h1V6H7Zm1 1h1V7H8ZM6 6h1V5H6ZM4 4h1V3H4Zm1 1h1V4H5Zm3 1h1V5H8ZM7 5h1V4H7ZM6 4h1V3H6ZM5 3h1V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.DeciduousTree12,
+            "M4 12h3v-2h2V9H8V8H7v1H6V8H5v1H4V8H3v1H2v1h2Zm1-1v-1h1v1ZM1 9h1V7h1V6H2V3H1Zm3-1h1V7H4Zm2 0h1V7H6ZM2 3h1V2H2Zm5 4h1V6H7ZM6 6h1V5H6Zm3 3h1V3H9v2H8v1h1v1H8v1h1ZM5 3h1V2h2V1H3v1h2Zm2 1h1V3H7Zm1-1h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.PalmTree12,
+            "M4 12h3V6H6V5h1V4H6V3h1V2H5v1H4v1h1v1H4v1h1v4H4ZM0 6h1V3H0Zm2 2h1V5H2Zm1-3h1V4H3ZM1 3h1V2H1Zm1-1h3V1H2Zm5 4h1V5H7Zm2 1h1V5H9ZM7 4h1V3H7Zm1 1h1V4H8ZM7 2h2V1H7Zm2 1h1V2H9Zm1 1h1V3h-1Zm0 0"
+        },
+        {
+            DinkieIconName.CherryBlossom12,
+            "M5 10H3V9H2V8h1V7H1v3h1v1h3Zm0 0h1V8h1V7h1V6H7V5H4v1H3v1h1v1h1ZM0 7h1V5h1V4h1v1h1V2H3v1H1v1H0Zm5 0V6h1v1Zm1 4h3v-1h1V7H8v1h1v1H8v1H6ZM4 2h1V1H4Zm1 1h1V2H5Zm5 4h1V4h-1V3H8V2H7v3h1V4h1v1h1ZM6 2h1V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.Rose12,
+            "M5 9h1V7h1V6H6V4H5V3H4V2H2v1h1v3h1v1h1Zm0 3h1v-2H4V9H3V8H1v1h1v1h1v1h2Zm2-2h2V9h1V8H8v1H7ZM4 2h1V1H4Zm1 1h1V2H5Zm2 3h1V3h1V2H7v1H6v1h1ZM6 2h1V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.Hibiscus12,
+            "M4 11H3v-1H2v1H1v-1H0v2h4Zm0 0h1v-1h1v1h1v-1h1V9h1v1h1V8H8V7H7v2H4V7H3v1H1v2h1V9h1v1h1ZM0 8h1V5H0Zm7 4h4v-2h-1v1H9v-1H8v1H7ZM1 5h2V4H2V2H1Zm4 1V5h1v1ZM4 7h3V6h1V5H7V4H6V2H5v2H4v1H3v1h1ZM2 2h3V1H2Zm8 6h1V5h-1ZM8 5h2V2H9v2H8ZM6 2h3V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.Sunflower12,
+            "M5 12h1v-2h1V9H4v1h1Zm-4 0h3v-1H3v-1H0v1h1Zm1-3h1V8H2ZM1 7h1V6H1Zm0-2h1V4H1Zm6 7h3v-1h1v-1H8v1H7ZM3 7h1V6h1V5H4V4H3Zm1 1h3V7H6V6H5v1H4ZM2 3h1V2H2Zm6 6h1V8H8ZM5 5h1V4h1V3H4v1h1Zm2 2h1V4H7v1H6v1h1ZM4 2h1V1H4Zm5 5h1V6H9Zm0-2h1V4H9ZM6 2h1V1H6Zm2 1h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.Herb12,
+            "M4 12h1v-2h1v1h1v-1h3v1h1V9H5V8H4V7H3v1H1v1h3ZM0 8h1V6h1V5H0Zm2-1h1V6H2Zm5 5h3v-1H7ZM5 8h1V6H5ZM3 4h1V3h1V2H3Zm5 4h2V7H8ZM7 7h1V6h2V5H7V4H6V3H5v1H4v1h2v1h1Zm3 0h1V6h-1ZM7 4h2V3H8V2H7Zm2-1h1V1H8v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.FourLeafClover12,
+            "M9 4H7V2H6v3h3Zm0 0h1V2H9V1H7v1h1v1h1Zm-5 8h1v-1H4Zm-2-2h2V9H3V8H2V7H1v2h1Zm3 1h1V9H5ZM4 9h1V6H2v1h2ZM2 5h3V2H4v2H2Zm4 4h1V7h2V6H6ZM5 6h1V5H5Zm2 4h2V9h1V7H9v1H8v1H7ZM1 4h1V3h1V2h1V1H2v1H1Zm0 0"
+        },
+        {
+            DinkieIconName.Mushroom12,
+            "M3 11h1V9h3v2h1V9h2V8h1V4h-1V3H9V2H8V1H3v1H2v1H1v1H0v4h1v1h2Zm1 1h3v-1H4ZM2 8V7H1V5h1V4h1v3h1v1Zm3-2V5H4V4h2v2Zm2 2V7h1V5h1v1h1v1H9v1ZM5 3V2h2v1Zm0 0"
+        },
+        {
+            DinkieIconName.Tomato12,
+            "M5 5h1V4h2V3H7V2H4v1H3v1h2Zm-4 5h1V9H1Zm1 1h1v-1H2Zm1 1h5v-1H3ZM0 9h1V4H0Zm1-5h1V3H1Zm7 7h1v-1H8Zm1-1h1V9H9ZM3 2h1V1H3Zm7 7h1V4h-1ZM9 4h1V3H9ZM7 2h1V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.Grapes12,
+            "M4 12h2v-1h2v1h2v-1H9v-1h1v1h1V9h-1V7H9V5H8V4H7v1H6V4h1V3H6V2H4v1h1v1H4V3H3v1H2v1h1v1H2V5H1v2h1v1H1V7H0v3h1v1h3v-1h1v1H4Zm-2-2V9h1v1Zm1-2V7h1v1Zm3 2V9h1v1ZM1 4h1V3H1Zm4 4V7h1v1ZM0 3h1V1H0Zm4 3V5h1v1Zm4 3V8h1v1ZM7 7V6h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.Watermelon12,
+            "M2 12h7v-1h1v-1h1V7h-1v2H9v1H2V9H1V7H0v3h1v1h1ZM1 7h1V6H1Zm2 1h1V7H3ZM2 6h1V5H2Zm3 3h1V8H5ZM3 5h1V4H3Zm2 1h1V5H5Zm2 2h1V7H7ZM4 4h1V3H4Zm1-1h1V2H5Zm4 4h1V6H9ZM8 6h1V5H8ZM7 5h1V4H7ZM6 4h1V3H6Zm0 0"
+        },
+        {
+            DinkieIconName.Tangerine12,
+            "M5 5h1V4h2V3H7V2H6v1H5V2H4V1H1v1H0v1h3v1h2Zm-4 6h1v-1H1Zm-1-1h1V6H0Zm2 2h7v-1H2ZM1 6h1V5H1Zm8 5h1v-1H9ZM2 5h1V4H2Zm8 5h1V6h-1ZM9 6h1V5H9ZM8 5h1V4H8ZM7 2h1V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.Lemon12,
+            "M2 9h1V5h1V4H3V1H2v2H1v1h1v2H1V4H0v4h1V7h1Zm2 2h1v-1H4Zm-1-1h1V9H3Zm2 2h5v-1H5Zm5-1h1V6h-1ZM4 4h4V3H4Zm5 2h1V5H9ZM8 5h1V4H8Zm0 0"
+        },
+        {
+            DinkieIconName.Banana12,
+            "M8 11H5v1h3Zm0 0h3V9H8V8H7V6H6V2H5v5H4v1h1v1h1v1h2Zm-8 0h1V8h1v1h1V7h1V6H3V3H2v3H1v1H0Zm3-1h1V9H3Zm1 1h1v-1H4ZM3 3h1V2H3Zm4 3h2V5H7ZM4 2h1V1H4Zm5 5h1V6H9Zm0 0"
+        },
+        {
+            DinkieIconName.Pineapple12,
+            "M3 9h1V8h1V7H4V6h1V5h1v1h1V5h1V4H5V2H4v1H3v1H2v1H1v1h2ZM0 7h1V6H0Zm5 4h1v-1H5Zm-1-1h1V9H4Zm1-1h1V8H5Zm1 3h3v-1h1v-1h1V7h-1v1H9v1H8v1H7v1H6Zm0-2h1V9H6ZM0 4h2V3H0Zm5 3h1V6H5Zm1 1h1V7H6Zm1 1h1V8H7ZM2 3h1V2H2ZM1 2h1V1H1Zm7 6h1V7H8ZM7 7h1V6H7Zm2 0h1V6H9ZM8 6h1V5H8ZM5 2h1V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.RedApple12,
+            "M4 6h3V5H6V2H5v3H4Zm-3 4h1V9H1Zm1 1h1v-1H2ZM0 9h1V5H0Zm3 3h5v-1H3ZM1 5h1V4H1Zm7 6h1v-1H8ZM2 4h2V3H2Zm7 6h1V9H9Zm1-1h1V5h-1ZM7 4h2V3H7ZM6 2h1V1H6Zm3 3h1V4H9Zm0 0"
+        },
+        {
+            DinkieIconName.RedApple10,
+            "M4 5h1V4h3V3H5V2H4v1H1v1h3ZM1 9h1V8H1ZM0 8h1V4H0Zm2 2h5V9H2Zm5-1h1V8H7Zm1-1h1V4H8ZM5 2h1V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.Pear12,
+            "M7 10h1V9h1V8H7Zm-3 1h1v-1H4Zm1 1h3v-1H5Zm-2-2h1V7H3ZM2 7h1V4H2Zm6 4h1v-1H8ZM1 4h1V3H1ZM0 3h1V1H0Zm9 7h1V9H9ZM3 4h3V3H3Zm7 5h1V6h-1ZM6 5h3V4H6Zm3 1h1V5H9Zm0 0"
+        },
+        {
+            DinkieIconName.Peach12,
+            "M1 12h4v-1h1v-1H2v1H1Zm0-2h1V9H1ZM0 9h1V5H0Zm1-4h1V4H1Zm5 7h4v-1H9v-1H7v1H6Zm0-2h1V5H6ZM2 4h1V3H2Zm7 6h1V9H9ZM5 5h1V4H5ZM4 4h1V3H4ZM3 3h1V2h2V1H3Zm7 6h1V5h-1ZM6 3h2V2H6Zm2 1h1V3H8Zm1 1h1V4H9Zm0 0"
+        },
+        {
+            DinkieIconName.Cherries12,
+            "M7 11h3v-1h1V7h-1V6H9V3H8v3H7v1h1v1H7V7H6v3h1Zm-6 1h3v-1h1V8H4V5H3v2H1v1h1v1H1V8H0v3h1Zm3-7h1V4H4Zm1-1h1V3H5Zm1-1h1V2H6Zm3 0h1V2h1V1H7v1h2Zm0 0"
+        },
+        {
+            DinkieIconName.Cherries10,
+            "M6 9h2V8h1V6H8V5H7V2h1V1H5v1h1v4h1v1H6V6H5v2h1Zm-5 1h2V9h1V7H3V4H2v2H1v1h1v1H1V7H0v2h1Zm2-6h1V3H3Zm1-1h1V2H4Zm0 0"
+        },
+        {
+            DinkieIconName.Strawberry12,
+            "M5 4H4v1h1Zm0 0h1V3h2V2H6V1H4v1h1Zm-3 6h1V9H2Zm1 1h2v-1H3ZM1 9h1V7h1V6H1V5H0v2h1Zm4 3h5v-1H5ZM4 9h1V8H4Zm2 1h1V9H6ZM3 6h1V5H3ZM1 5h2V4h1V2H3v1H2v1H1Zm0-2h1V2H1Zm7 7h1V9H8ZM6 8h1V7H6Zm2 0h1V7H8Zm2 3h1V6h-1ZM7 6h1V5H7Zm2 0h1V4H9ZM8 4h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.Hamburger12,
+            "M0 11h1v-1h9v1h1V9h-1V8H9V7H8v1H7V7H6v1H5V7H4v1H3V7H2v1H1v1H0Zm0-3h1V7H0Zm1 4h9v-1H1Zm0-8H0v2h1v1h1V6h1v1h1V6h1v1h1V6h1v1h1V6h1v1h1V6h1V4h-1v1H1Zm0 0h1V3H1Zm9 4h1V7h-1ZM2 3h7V2H2Zm7 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.Hamburger10,
+            "M0 9h1V8h7v1h1V7H8V6h1V4H8v1H1V4H0v2h1v1H0Zm1 1h7V9H1Zm0-6h1V3H1Zm1-1h5V2H2Zm5 1h1V3H7Zm0 0"
+        },
+        {
+            DinkieIconName.SliceOfPizza12,
+            "M0 11h11v-1h-1V9H9V8H8V7H7V6H6V5H5V3H2v1h2v1H3v2H2v3H1V6H0Zm3-1V9h1v1ZM1 6h1V4H1Zm4 3V8h1v1Zm2 1V9h1v1ZM4 7V6h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.PoultryLeg12,
+            "M1 12h4v-1h1V9h1V7h1V5H7V4H5v1H3v1H1v1H0v4h1Zm0-3V8h1V7h1v1H2v1Zm6-5h1V3H7Zm1 1h1V4H8Zm0-2h1V2h1V1H8Zm1 1h2V2h-1v1H9Zm0 0"
+        },
+        {
+            DinkieIconName.CookedRice12,
+            "M0 8h1V6h9v2h1V5h-1V4H9v1H8V4H7v1H6V4H5v1H4V4H3v1H2V4H1v1H0Zm1 1h1V8H1Zm1 3h7V9H2Zm1-1v-1h5v1ZM2 4h1V3H2Zm7 5h1V8H9ZM3 3h1V2H3Zm1 1h1V3H4Zm2 0h1V3H6ZM5 3h1V2h1V1H4v1h1Zm2 0h1V2H7Zm1 1h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.SteamingBowl12,
+            "M0 8h1V6h9v2h1V5H6V2h5V1H2v1h1v3H0Zm1 1h1V8H1Zm1 3h7V9H2Zm1-1v-1h5v1Zm6-2h1V8H9ZM4 5V2h1v3Zm0 0"
+        },
+        { DinkieIconName.Bread12, "M1 12h8v-1h1V6h1V2h-1V1H2v1H1v1H0v3h1V4h1V3h6v1h1v2H8v5H2V6H1Zm0 0" },
+        {
+            DinkieIconName.SoftIceCream12,
+            "M1 7h1V6h7v1h1V5H9V3H8v2H3V4H2v1H1Zm2 5h5V9H7v2H4V9H3ZM2 9h1V8h5v1h1V7H2Zm1-5h2V3H3Zm2-1h1V2h1V1H4v1h1Zm2 0h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Cookie12,
+            "M3 2H2v1h1Zm0 0h5V1H3Zm-2 8h1V9H1Zm1 1h1v-1H2ZM0 9h1V4H0Zm3 3h5v-1H3Zm1-2h1V9H4ZM2 8h2V7H3V6H2Zm6 3h1v-1H8ZM1 4h1V3H1Zm2 1h1V4H3Zm3 4h2V8H7V7H6Zm3 1h1V9H9ZM5 5h2V4H6V3H5Zm3 1h1V5H8Zm2 3h1V4h-1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.Shortcake12,
+            "M7 12h2v-1h1V9h1V3h-1v3H9v2H8v3H7ZM1 9h2V8H1Zm2 1h2V9H3Zm2 1h2v-1H5ZM0 8h1V5h1V4h2V3H0Zm2-2h2V5H2Zm2 1h2V6H4Zm2 1h2V7H6ZM5 4h1V2H5Zm1 1h2V4H6Zm2-1h1V2H8ZM6 2h2V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.ForkAndKnife12,
+            "M8 12h2V1H8v1h1v5H7V3H6v5h2Zm-6 0h1V7H2ZM1 7h1V6H1Zm2 0h1V6H3ZM0 6h1V5h3v1h1V1H4v3H3V1H2v3H1V1H0Zm7-3h1V2H7Zm0 0"
+        },
+        { DinkieIconName.WineGlass12, "M3 12h5v-1H6V8h1V7h1V6h1V1H2v5h1v1h1v1h1v3H3Zm0-8V2h5v2Zm0 0" },
+        {
+            DinkieIconName.BeerMug12,
+            "M8 11H3v1h5Zm0 0h1v-1h2V5H9V4h1V2H9v1H5v1h3Zm-6 0h1V6H2V2H1v5h1Zm2-1h1V7H4ZM3 6h1V5h1V4H3Zm3 4h1V5H6Zm3-1V6h1v3ZM2 2h7V1H2Zm0 0"
+        },
+        {
+            DinkieIconName.Ribbon12,
+            "M7 12h2V9h2V2H8v1h2v5H8v3H7Zm-5 0h2v-1H3V8H1V3h2V2H0v7h2Zm2-1h1V8h1v3h1V8h1V7H7V6h1V5H7V4H4v1H3v1h1v1H3v1h1Zm1-4V5h1v2ZM3 4h1V3H3Zm4 0h1V3H7Zm0 0"
+        },
+        {
+            DinkieIconName.WrappedPresent12,
+            "M2 4H0v6h2V9H1V5h1Zm0 0h3V3h1v1h3V3h1V2H9V1H7v1h1v1H7V2H4v1H3V2h1V1H2v1H1v1h1Zm0 7h2v-1H2Zm2 1h3v-1H6V7h1V6H4v1h1v4H4Zm3-1h2v-1H7ZM2 6h2V5H2Zm3-1h1V4H5Zm2 1h2V5H7Zm2 4h2V4H9v1h1v4H9Zm0 0"
+        },
+        {
+            DinkieIconName.BirthdayCake12,
+            "M0 12h11V7h-1V5H8V3H7v2H6V3H5v2H4V3H3v2H1v2H0Zm1-1v-1h1V9H1V8h1v1h1V8h1v1h1V8h1v1h1V8h1v1h1V8h1v1H9v1h1v1Zm2-1h1V9H3Zm2 0h1V9H5Zm2 0h1V9H7ZM2 7V6h7v1Zm1-5h1V1H3Zm2 0h1V1H5Zm2 0h1V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.ChristmasTree12,
+            "M4 12h3v-2h3V9H9V8H8v1H3V8H2v1H1v1h3Zm1-1v-1h1v1ZM3 8h5V7h1V6H8V5H7v1H4V5H3v1H2v1h1Zm1-3h1V4h1v1h1V3h1V2H6V1H5v1H3v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.Balloon12,
+            "M5 10H4v1h1Zm0 0h1V8h1V7H4v1h1Zm-4 2h3v-1H1Zm2-5h1V6H3ZM2 6h1V3H2Zm5 3h1V8H7ZM3 3h1V2H3Zm4 4h1V6H7ZM4 2h3V1H4Zm4 4h1V3H8ZM7 3h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.BalloonFilled12,
+            "M5 10H4v1h1Zm0 0h1V8h1V7h1V6h1V2H8V1H3v1H2v4h1v1h1v1h1Zm-4 2h3v-1H1Zm6-3h1V8H7Zm0-4V3H6V2h1v1h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.PartyPopper12,
+            "M5 10H4V9H3V8H2V7H1v2h1v1h1v1h2Zm0 0h2V9h2V8H7V7H6V6H5V5H4V3H3v2H2v2h1v1h1v1h1Zm-5 2h3v-1H2v-1H1V9H0Zm0-9h1V2H0Zm10 8h1v-1h-1ZM2 2h3V1H2Zm5 4h1V5H7ZM5 4h1V2H5Zm5 5h1V7h-1ZM9 7h1V6H9ZM8 5h3V4H8ZM7 3h1V1H7Zm3 0h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.ConfettiBall12,
+            "M0 5h1V4h4v1h1V4h4v1h1V2h-1V1H6v1H5V1H1v1H0Zm1 7h1v-1H1Zm0-2h1V8H1Zm2 1h1V9H3Zm2 1h1v-1H5ZM2 8h1V7H2Zm3 2h1V9H5Zm1 1h1v-1H6Zm2 1h1v-1H8ZM1 6h4V5H1Zm4 2h1V7H5Zm1 1h1V8H6Zm4 2h1v-1h-1ZM9 9h1V8H9ZM8 8h1V7H8ZM3 3V2h1v1Zm3 3h4V5H6Zm2-3V2h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.GraduationCap12,
+            "M9 12h1v-1h1v-1h-1V5H8v1h1v2H7v1h2v1H8v1h1ZM2 9h2V8H2ZM1 8h1V6h1V5H1ZM0 5h1V4H0Zm4 5h3V9H4ZM3 7h2V6H3Zm2 1h1V7H5ZM1 4h2V3H1Zm5 3h2V6H6ZM3 3h2V2H3Zm3 2h2V4H6ZM5 2h1V1H5Zm1 1h2V2H6Zm2 1h2V3H8Zm2 1h1V4h-1Zm0 0"
+        },
+        {
+            DinkieIconName.FilmFrames12,
+            "M0 12h11V1H0Zm1-1v-1h1v1Zm2 0v-1h1v1Zm2 0v-1h1v1Zm2 0v-1h1v1ZM1 3V2h1v1Zm0 6V4h4v5Zm8 2v-1h1v1ZM3 3V2h1v1Zm3 6V4h4v5ZM5 3V2h1v1Zm2 0V2h1v1Zm2 0V2h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.FilmFrames10,
+            "M0 10h9V1H0Zm1-1V8h1v1Zm2 0V8h1v1ZM1 7V4h3v3Zm4 2V8h1v1ZM1 3V2h1v1Zm6 6V8h1v1ZM3 3V2h1v1Zm2 4V4h3v3Zm0-4V2h1v1Zm2 0V2h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.FerrisWheel12,
+            "M0 12h11v-1H8v-1H7v1H4v-1H3v1H0Zm1-2h1V9H1Zm1-1h1V8H2Zm2 1h1V8H4ZM0 9h1V7h2v1h1V5H3v1H1V4H0Zm6 1h1V8H6ZM1 4h1V3H1Zm1 1h1V4H2Zm3 3h1V6H5ZM2 3h1V2H2Zm7 7h1V9H9ZM8 9h1V8H8ZM4 5h3V4H6V2h2V1H3v1h2v2H4ZM3 4h1V3H3Zm7 5h1V4h-1v2H8V5H7v3h1V7h2ZM7 4h1V3H7Zm1 1h1V4H8Zm0-2h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.Microphone12,
+            "M1 12h2v-1h1v-1h1V9h1V8h3V7H8V6H7V5H6V4H5V3H4v3H3v1H2v1H1v1H0v2h1Zm3-4V7h1v1Zm1-5h1V2H5Zm4 4h1V6H9ZM6 4h1V3H6Zm1 1h1V4H7Zm1 1h1V5H8Zm0-2h1V3H8ZM7 3h1V2h1V1H6v1h1Zm3 3h1V3h-1v1H9v1h1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.MovieCamera12,
+            "M1 12h6v-1h1V7H7V6H0v4h1Zm2-2V8h3v2ZM0 4h1V2H0Zm1-2h2V1H1Zm0 3h7V4H6V2H5v1H4V2H3v2H1Zm9 6h1V6h-1v1H9v3h1ZM6 2h2V1H6Zm2 2h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.Headphone12,
+            "M7 12h2v-1h1V7H9V6H7Zm-5 0h2V6H2v1H1v4h1ZM0 7h1V3H0Zm1-4h1V2H1Zm1-1h7V1H2Zm8 5h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.ArtistPalette12,
+            "M6 11H4v1h2Zm0 0h1v-1h3V9H6Zm-3 0h1v-1H3Zm-1-1h1V9H2ZM1 9h1V7H1ZM0 7h1V3H0Zm1-4h1V2H1Zm5 5h2V6H7v1H6ZM5 7h1V6h1V5H5ZM2 2h4V1H2Zm8 7h1V6h-1ZM9 6h1V4H9ZM6 3h2V2H6Zm2 1h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.TopHat12,
+            "M8 8H3v1h5Zm0 0h1V6h1V5H9V3H8v1H7v1h1Zm-7 2h1V9H1ZM0 9h1V6H0Zm2 2h7v-1H2Zm0-3h1V5h1V4H3V3H2v2H1v1h1Zm7 2h1V9H9ZM4 6h3V5H4Zm6 3h1V6h-1ZM3 3h5V2H3Zm0 0"
+        },
+        {
+            DinkieIconName.TopHat10,
+            "M2 7h1V5h3v2h1V6h1V5H7V3H6v1H3V3H2v2H1v1h1ZM1 9h1V8H1ZM0 8h1V6H0Zm2 2h5V9H2Zm1-2h3V7H3Zm4 1h1V8H7Zm1-1h1V6H8ZM3 3h3V2H3Zm0 0"
+        },
+        {
+            DinkieIconName.ClapperBoard12,
+            "M1 12h9V8h1V6H4V5h2V4h2V3h2V2H9V1H8v1H6v1H4v1H2v1H0v3h1Zm2-1v-1h5v1ZM1 7V6h1v1Zm2 2V8h5v1Zm0 0"
+        },
+        {
+            DinkieIconName.VideoGame12,
+            "M2 5H1v1h1Zm0 0h7V4H6V2H5v2H2Zm-1 7h2v-1H1Zm-1-1h1V6H0Zm3 0h5v-1H3Zm0-2h1V8h1V7H4V6H3v1H2v1h1Zm5 3h2v-1H8ZM6 8h1V7H6Zm1 1h1V8H7Zm0-2h1V6H7Zm1 1h1V7H8Zm2 3h1V6h-1ZM4 2h1V1H4Zm5 4h1V5H9Zm0 0"
+        },
+        {
+            DinkieIconName.VideoGameFilled12,
+            "M1 12h2v-1h5v1h2v-1h1V6h-1V5H9V4H6V2H5v2H2v1H1v1H0v5h1Zm2-3V8H2V7h1V6h1v1h1v1H4v1Zm4 0V8H6V7h1V6h1v1h1v1H8v1Zm0-1h1V7H7ZM4 2h1V1H4Zm0 0"
+        },
+        {
+            DinkieIconName.VideoGame10,
+            "M0 10h2V9h5v1h2V5H8V4H5V2H4v2H1v1H0Zm2-2V7H1V6h1V5h1v1h1v1H3v1Zm4 0V7H5V6h1V5h1v1h1v1H7v1Zm0-1h1V6H6ZM3 2h1V1H3Zm0 0"
+        },
+        {
+            DinkieIconName.SlotMachine12,
+            "M0 12h11V5h-1v4H9v1H7V9H6v1H4V9H3v1H1V7H0Zm2-4h1V5H1v1h1Zm3 0h1V5H4v1h1Zm3 0h1V5H7v1h1ZM0 4h1V3h2v1h1V3h2v1h1V3h2v1h2V2h-1V1H1v1H0Zm0 0"
+        },
+        {
+            DinkieIconName.GameDie12,
+            "M1 12h8v-1h1v-1h1V2h-1v1H9v1H8v7H1Zm-1-1h1V4h7V3h1V2h1V1H2v1H1v1H0Zm2-5h1V5H2Zm2 2h1V7H4Zm2 2h1V9H6ZM3 3V2h1v1Zm6 5V6h1v2ZM6 3V2h1v1Zm0 0"
+        },
+        { DinkieIconName.GameDie10, "M1 10h7V9h1V2H8v1H7v6H1ZM0 9h1V3h6V2h1V1H1v1H0Zm2-4h1V4H2Zm3 3h1V7H5Zm0 0" },
+        { DinkieIconName.MusicalNote12, "M0 12h3v-1h1V5h2V4h3v4H7v1h1v1H7V9H6v2h3v-1h1V1H7v1H3v7H1v1h1v1H1v-1H0Zm0 0" },
+        {
+            DinkieIconName.MultipleMusicalNotes12,
+            "M5 11h3v-1h1V4h1V3H9V1H8v7H6v1h1v1H6V9H5Zm-5 1h3v-1h1V5h1V4H4V2H3v7H1v1h1v1H1v-1H0Zm5-5h1V5H5Zm5-1h1V4h-1Zm0 0"
+        },
+        {
+            DinkieIconName.Saxophone12,
+            "M2 12h6v-1h1V2h2V1H8v1H7v1H6v1h1v1H6v1h1v1H6v1h1v1H5V4H2v1h2v1H3v1H1V6H0v2h1v3h1ZM1 6h1V5H1Zm0 0"
+        },
+        {
+            DinkieIconName.Guitar12,
+            "M2 12h3v-1h1V9h2V8H7V7H6v1H5v1H4v1H3V9H2V8h1V7h1V6h1V4h1V3H4v1H3v2H1v1H0v3h1v1h1Zm1-3h1V8H3Zm1-1h1V7H4Zm1-1h1V6H5Zm1-1h1V5H6Zm1-1h1V4H7Zm1-1h1V3H8Zm1-1h2V2h-1V1H9Zm0 0"
+        },
+        { DinkieIconName.MusicalKeyboard12, "M1 12h9v-1H8V8h1V3h1v8h1V1H0v10h1V3h1v5h1v3H1Zm3-1V8h1V3h1v5h1v3Zm0 0" },
+        {
+            DinkieIconName.Trumpet12,
+            "M0 9h1V8h1V7h1v1h1V7h5V6h2V5H8V4H7v1H6V4H5v1H4v1H2V5H1V4H0Zm5 1h1V9h1v1h1V9h1V8H4v1h1Zm4-2h1V7H9Zm0 0"
+        },
+        {
+            DinkieIconName.Violin12,
+            "M1 12h3v-1h1V9H4v1H3V9H2V8h1V7H1v1H0v3h1Zm2-3h1V8H3Zm0-2h1V6H3Zm2 2h1V8H5ZM4 8h1V7H4ZM0 3h2V2H0Zm4 3h1V5H4Zm2 2h1V7H6ZM5 7h1V6H5ZM3 5h1V4H3ZM2 4h1V3H2Zm5 5h1V8H7Zm1 1h1V9H8Zm1 2h2v-1h-1v-1H9ZM6 6h1V5H6Zm1-1h1V4H7Zm1-1h2V3h1V1H9v1H8Zm0 0"
+        },
+        {
+            DinkieIconName.MusicalScore12,
+            "M6 11H4v1h2Zm0 0h1v-1h1V9H7V7h1V6H7V4H6V2H5v3h1v1H5v2h1v1H4v1h2Zm-6 0h3v-1H1V9h1V8H1V7h1V6H1V5h2V4H1V3h3V2H0Zm3-2h1V6H3Zm1-3h1V5H4Zm5 5h2v-1H9ZM8 9h1V7H8Zm2 0h1V8h-1Zm0-2h1V6h-1ZM7 4h1V2H7ZM6 2h1V1H6Zm3 3h2V4H9Zm0-2h2V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Trophy12,
+            "M1 6h2V2h5v4h2V5H9V3h1v2h1V2H9V1H2v1H0v3h1V3h1v2H1Zm1 6h7V9H6V8h1V7H4v1h1v1H2Zm1-1v-1h5v1Zm0-4h1V6H3Zm4 0h1V6H7Zm0 0"
+        },
+        {
+            DinkieIconName.SnowCappedMountain12,
+            "M0 12h11V6h-1v1H9V6H8V5H7v1H6v1H5v1H4v2H3V8H2v1H1V8H0Zm1-4h1V6H1Zm2 0h1V5H3V4H2v2h1Zm1-3h1V4H4Zm1-1h1V2H5Zm2 0h1V2H7Zm2 2h1V3H9v1H8v1h1ZM6 2h1V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.BuildingConstruction12,
+            "M8 8H7v1H6v1h5V9h-1V8H9v1H8Zm0 0h1V4h2V3H4V1H3v2H0v2h2V4h1v2h1V4h4Zm-6 4h3V6H4v1H3V6H2Zm1-1v-1h1v1Zm0-2V8h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.HouseBuildings10,
+            "M1 10h7V6h1V4H8v1H1V4H0v2h1Zm1-1V6h5v3H5V7H3v2ZM1 4h1V3H1Zm1-1h5V1H5v1H2Zm5 1h1V3H7Zm0 0"
+        },
+        {
+            DinkieIconName.DesertIsland12,
+            "M5 9H4v1h1Zm0 0h4V8H8V4h1V3H7v1H6v1h1v3H5Zm-5 3h11v-2h-1v1H4v-1H3v1H0Zm4-6h1V4H4Zm5 4h1V9H9ZM3 3h1V2H3Zm2 1h1V3H5ZM4 2h2V1H4Zm2 1h1V2H6Zm3 2h1V4H9ZM7 2h2V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.HouseBuilding12,
+            "M1 12h9V8h1V6h-1v1H1V6H0v2h1Zm0-6h1V5H1Zm1 5V8h7v3H7V9H4v2Zm3 0v-1h1v1ZM2 5h1V4H2Zm7 1h1V1H7v2H3v1h5V2h1v2H8v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.HouseBuilding10,
+            "M1 10h7V6h1V4H8v1H1V4H0v2h1Zm1-1V6h5v3H6V7H3v2Zm2 0V8h1v1ZM1 4h1V3H1Zm6 0h1V1H5v1H2v1h4V2h1Zm0 0"
+        },
+        {
+            DinkieIconName.Factory12,
+            "M0 12h11V6h-1V5H9V4H8V1H5v2H4V1H1v2H0Zm1-1V6h1v1h1v1h1V5h1v1h1v1h1v1h1V6h1v1h1v4H9V9H6v2H5V9H2v2Zm2 0v-1h1v1Zm4 0v-1h1v1ZM2 5V2h1v3Zm4 0V2h1v3Zm0 0"
+        },
+        {
+            DinkieIconName.Factory10,
+            "M0 10h9V5H7v1h1v3H7V7H5v2H4V7H2v2H1V4h1v1h1V1H1v2H0Zm3-4h2V4h1v1h1V1H5v2H4v2H3Zm0 0"
+        },
+        {
+            DinkieIconName.Label12,
+            "M1 2H0v5h1Zm0 0h5V1H1Zm0 6h1V7H1Zm3 3h1v-1H4Zm-1-1h1V9H3ZM2 9h1V8H2Zm3 3h2v-1H5Zm2-1h1v-1H7Zm1-1h1V9H8ZM2 5h2V3H2Zm7 4h1V8H9Zm1-1h1V6h-1ZM6 3h1V2H6Zm1 1h1V3H7Zm1 1h1V4H8Zm1 1h1V5H9Zm0 0"
+        },
+        {
+            DinkieIconName.LabelFilled12,
+            "M5 12h2v-1h1v-1h1V9h1V8h1V6h-1V5H9V4H8V3H7V2H6V1H1v1H0v5h1v1h1v1h1v1h1v1h1ZM2 5V3h2v2Zm0 0"
+        },
+        { DinkieIconName.LabelFilled10, "M4 10h2V9h1V8h1V7h1V5H8V4H7V3H6V2H5V1H1v1H0v4h1v1h1v1h1v1h1ZM2 4V3h1v1Zm0 0" },
+        {
+            DinkieIconName.Label10,
+            "M1 2H0v4h1Zm0 0h4V1H1Zm0 5h1V6H1Zm1 1h1V7H2Zm1 1h1V8H3Zm1 1h2V9H4Zm2-1h1V8H6ZM2 4h1V3H2Zm5 4h1V7H7Zm1-1h1V5H8ZM7 5h1V4H7ZM6 4h1V3H6ZM5 3h1V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.BowAndArrow12,
+            "M9 12h2v-1h-1V8H9V5H8V4H7V3H4V2H1V1H0v2h1v1h4v1h1v1h1v1h1v4h1Zm-8 0h1v-1h1v-1h1V8H2v1H1v1H0v1h1Zm6 0h1v-1H7ZM0 5h1V4H0Zm1 1h1V5H1Zm1 1h1V6H2Zm3 3h1V9H5Zm1 1h1v-1H6ZM4 8h1V7H4Zm1-1h1V6H5Zm3-3h1V3H8Zm2 0h1V1H8v1h1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.Octopus12,
+            "M4 11H3v1h1Zm0 0h1V8h1v3h1V8h1V7H3v1h1Zm-4 0h2v-1H0Zm2-1h1V8H2Zm5 2h1v-1H7ZM2 7h1V2H2Zm6 3h1V8H8Zm1 1h2v-1H9ZM4 6h1V4H4Zm2 0h1V4H6ZM3 2h5V1H3Zm5 5h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.Bug12,
+            "M7 10H6v1h1Zm0 0h1V9h2V8H8V7h1V6H7Zm-6 2h1v-1H1Zm1-1h1v-1H2Zm3 1h1v-1H5Zm-1-1h1v-1H4Zm-1-1h1V6H2v1h1v1H1v1h2ZM1 6h1V5H1Zm7 5h1v-1H8Zm1 1h1v-1H9ZM1 3h1V2H1Zm3 3h3V4H6v1H5V4H4ZM2 2h2V1H2Zm3 2h1V3H5ZM4 3h1V2H4Zm2 0h1V2H6Zm3 3h1V5H9ZM7 2h2V1H7Zm2 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Fish12,
+            "M4 11h2v-1h1v1h2v-1H8V8H7v1H2v1h2ZM1 9h1V8h1V7H1V5H0v3h1Zm0-4h1V4H1Zm2 1h1V5H3Zm5 2h1V7H8ZM2 4h5V3h1V2H4v1H2Zm6 2h1V5H8ZM7 5h1V4H7Zm2 4h2V4H9v1h1v3H9Zm0 0"
+        },
+        {
+            DinkieIconName.Turtle12,
+            "M9 10h2V9h-1V8H9V6h1V5h1V4H9v1H8v1H7v1h1v1H7v1h2Zm-9 0h2V9h2V8H3V7h1V6H3V5H2V4H0v1h1v1h1v2H1v1H0Zm5 2h1v-2h1V9H6V8H5v1H4v1h1ZM4 8h1V7H4ZM3 5h1V4H3Zm1 1h1V5H4Zm2 2h1V7H6ZM5 7h1V6H5Zm1-1h1V5H6ZM5 5h1V4h1V2H6v1H5V2H4v2h1Zm2 0h1V4H7ZM5 2h1V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.Bird12,
+            "M4 10h6V9H9V8H8v1H7V8H6v1H4Zm-2 1h1v-1H2Zm-1-1h1V4H1Zm2 2h7v-1H3Zm0-3h1V6H3ZM0 4h1V3H0Zm1-1h1V2H1Zm5 4h1V6H6Zm1 1h1V7H7Zm3 3h1v-1h-1ZM3 4h1V3H3Zm1 2h2V2H5v3H4ZM2 2h3V1H2Zm0 0"
+        },
+        {
+            DinkieIconName.BirdFilled12,
+            "M3 12h7v-1h1v-1h-1V9H9v1H4V9H3V6h1V5h1v1H4v3h5V8H8V7H7V6H6V2H5V1H2v1H1v1H0v1h1v6h1v1h1Zm0-8V3h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.CowFace12,
+            "M2 8H1v3h1Zm0 0h7V7h2V5h-1v1H9V5h1V2H9v2H8v3H7V5H6v2H5V5H4v2H3V4H2V2H1v3h1v1H1V5H0v2h2Zm0 4h7v-1H2Zm1-2h1V9H3Zm4 0h1V9H7Zm2 1h1V8H9ZM3 4h5V2h1V1H6v1h1v1H4V2h1V1H2v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.TigerFace12,
+            "M5 6h1V5h1V4H6V3h2V2H3v1h2v1H4v1h1Zm-4 5h1v-1H1Zm-1-1h1V9h1V8H1V7h1V6H1V5H0Zm2 2h7v-1H7v-1H6v1H5v-1H4v1H2Zm3-2h1V9h1V8H4v1h1ZM1 5h1V4H1Zm2 2h1V6H3ZM0 4h1V2H0Zm9 7h1v-1H9ZM2 4h1V3H2ZM1 2h2V1H1Zm6 5h1V6H7Zm3 3h1V5h-1v1H9v1h1v1H9v1h1ZM9 5h1V4H9ZM8 4h1V3H8Zm0-2h2V1H8Zm2 2h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.RabbitFace12,
+            "M2 12h7v-1H7v-1H6v1H5v-1H4v1H2Zm-1-1h1V7H1Zm2-2h1V8H3Zm2 1h1V9H5ZM2 7h1V2H2Zm5 2h1V8H7Zm2 2h1V7H9ZM4 6h3V2H6v3H5V2H4ZM3 2h1V1H3Zm5 5h1V2H8ZM7 2h1V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.CatFace12,
+            "M9 5h1V1H9v1H8v1h1Zm-8 6h1v-1H1Zm-1-1h1V5H0Zm2 2h7v-1H2Zm2-2h3V9H6V8H5v1H4ZM3 7h1V5H3ZM1 5h1V3h1V2H2V1H1Zm8 6h1v-1H9ZM7 7h1V5H7ZM3 4h5V3H3Zm7 6h1V5h-1Zm0 0"
+        },
+        {
+            DinkieIconName.CatFace10,
+            "M7 4h1V1H7v1H6v1h1ZM1 9h1V8H1ZM0 8h1V4H0Zm2 2h5V9H2Zm0-4h1V5H2Zm1 2h3V7H5V6H4v1H3Zm4 1h1V8H7ZM1 4h1V3h1V2H2V1H1Zm5 2h1V5H6ZM3 4h3V3H3Zm5 4h1V4H8Zm0 0"
+        },
+        {
+            DinkieIconName.HorseFace12,
+            "M10 12h1V6h-1V4H9V3H8V2H7v2h1v3h1v4h1ZM0 10h1V7H0Zm1 1h3v-1H1Zm4 1h1v-2h1V9H4v1h1ZM1 7h1V5H1Zm6 2h1V8H7ZM5 7h1V5H5ZM2 5h1V4h3V2H4V1H3v1H2Zm4-3h1V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.DogFace12,
+            "M3 4H2v2h1Zm0 0h1V2h3v2h1V2h1V1H2v1h1Zm2 8h1v-1H5ZM1 9h1V6H1V3H0v4h1Zm3 2h1v-1h1v1h1v-1h2V9H6V8H5v1H2v1h2Zm0-4h1V5H4ZM1 3h1V2H1Zm5 4h1V5H6Zm2-1h1V4H8Zm1 3h1V7h1V3h-1v3H9Zm0-6h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.PigFace12,
+            "M3 10h5V8H7v1H6V8h1V7H4v1h1v1H4V8H3Zm-2 1h1v-1H1Zm-1-1h1V5H0Zm2 2h7v-1H2Zm0-5h1V6H2ZM1 5h1V4H1ZM0 4h1V2h2V1H0Zm9 7h1v-1H9ZM8 7h1V6H8ZM2 4h7V3H8V2H7v1H4V2H3v1H2Zm8 6h1V5h-1ZM9 5h1V4H9Zm1-1h1V1H8v1h2Zm0 0"
+        },
+        {
+            DinkieIconName.FrogFace12,
+            "M1 10h1V9h7v1h1V9h1V6h-1v2H1V6H0v3h1Zm1 1h7v-1H2ZM1 6h2V4H2V3H1Zm3 1h1V6H4Zm2 0h1V6H6ZM2 3h2V2H2Zm2 1h3V3H4Zm4 2h2V3H9v1H8ZM7 3h2V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Eye12,
+            "M4 9h3V8h1V5H7V4h1v1h1v1h1V4H9V3H8V2H3v1H2v1H1v2h1V5h1V4h1v1H3v3h1Zm-2 1h1V9H2ZM1 9h1V8H1ZM0 8h1V6H0Zm3 3h5v-1H3Zm5-1h1V9H8ZM6 7V6H5V5h1v1h1v1Zm3 2h1V8H9Zm1-1h1V6h-1Zm0 0"
+        },
+        {
+            DinkieIconName.Eye10,
+            "M3 7h3V6h1V4H6v1H5V4h1V3h1V2H2v1h1v1H2v2h1ZM1 8h1V7H1ZM0 7h1V4H0Zm2 2h5V8H2ZM1 4h1V3H1Zm6 4h1V7H7Zm1-1h1V4H8ZM7 4h1V3H7Zm0 0"
+        },
+        { DinkieIconName.Mouth12, "M0 7h2V6h7v1h2V6h-1V5H9V4H8V3H6v1H5V3H3v1H2v1H1v1H0Zm3 3h5V9h1V8H2v1h1Zm0 0" },
+        {
+            DinkieIconName.WhiteUpBackhandIndex12,
+            "M1 9h1V6h1v2h1V2h1V1H3v4H1Zm2 2h1v-1H3Zm-1-1h1V9H2Zm2 2h4v-1H4Zm4-1h1v-1H8Zm1-1h1V5H9ZM5 7h1V5h1v2h1V5h1V4H6V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.WhiteDownBackhandIndex12,
+            "M6 12h2V8h2V4H9v3H8V5H7v6H6Zm-1-1h1V6H5v2H4V6H3v2H2v1h3ZM1 8h1V3H1Zm1-5h1V2H2Zm1-1h4V1H3Zm4 1h1V2H7Zm1 1h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.WhiteLeftBackhandIndex12,
+            "M0 6h1V5h6V4H5V3h3V2H4v2H0Zm3 4h1V9h2V8H4V7h2V6H1v1h2Zm1 1h5v-1H4Zm5-1h1V9H9Zm1-1h1V5h-1ZM8 4h1V3H8Zm1 1h1V4H9Zm0 0"
+        },
+        {
+            DinkieIconName.WhiteRightBackhandIndex12,
+            "M10 6H5v1h2v1H5v1h2v1h1V7h2Zm0 0h1V4H7V2H3v1h3v1H4v1h6Zm-9 4h1V9H1ZM0 9h1V5H0Zm2 2h5v-1H2ZM1 5h1V4H1Zm1-1h1V3H2Zm0 0"
+        },
+        {
+            DinkieIconName.FistedHandSign12,
+            "M7 11h3v-1H8V9H7V6H6v3H5V6H4v3H3V7H2v2H1v1h6ZM0 9h1V5H0Zm1-4h1V4H1Zm1-1h2V3H2Zm6 5h1V6H8Zm2 1h1V5h-1ZM4 3h5V2H4Zm5 2h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.OkHandSign12,
+            "M6 6H5v1h1Zm0 0h4V5H7V4H6Zm-5 5h1v-1H1Zm-1-1h1V3H0Zm2 2h8v-1H2Zm4-3h1V8H6Zm1 1h2V9H7ZM2 5h1V2H1v1h1Zm5 3h2V7H7ZM4 5h1V3H4Zm6 6h1V9h-1ZM9 9h1V8H9ZM3 2h2V1H3Zm2 1h1V2H5Zm5 5h1V6h-1ZM7 4h1V3H7Zm1-1h1V1H6v1h2Zm0 0"
+        },
+        {
+            DinkieIconName.OkHandSign10,
+            "M4 5h1V2h2v1h1V1H3v1h1ZM1 9h1V8H1ZM0 8h1V3H0Zm2 2h6V9H2Zm0-4h1V2H1v1h1Zm6 3h1V5H8v2H7V6H5v2h3ZM6 5h2V4H7V3H6Zm0 0"
+        },
+        {
+            DinkieIconName.ThumbsUpSign12,
+            "M5 12h5v-1H8v-1h2v1h1V5H8v1h2v1H8V6H7v5H5Zm-5 0h3v-1h2v-1H3V7h1V6H2V5H0Zm4-6h1V5H4Zm4 3V8h2v1ZM5 5h1V2h1V1H5Zm2 0h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.ClappingHandsSign12,
+            "M3 10h1V9h2V6H5v2H3ZM1 9h1V8H1Zm3 2h1v-1H4ZM0 8h1V6h1V5H0Zm5 4h4v-1H5ZM2 7h1V6H2Zm1-1h1V5H3Zm6 5h1V7H9ZM4 5h2V4H4Zm2 1h2V5H6Zm2 1h1V6H8ZM5 3h1V2H5ZM4 2h1V1H4Zm3 1h1V2H7Zm2 1h1V3H9ZM8 2h1V1H8Zm2 1h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.U1F45112,
+            "M1 11h9V5H9v1H7v1h2v1H2V7h2V6H2V5H1Zm1-1V9h7v1ZM0 4h1V3H0Zm4 2h1V5H4Zm2 0h1V5H6ZM5 5h1V4H5Zm0-2h1V2H5Zm5 1h1V3h-1Zm0 0"
+        },
+        {
+            DinkieIconName.WomansHat12,
+            "M3 9h5V8H7V7h1v1h2v1h1V6h-1v1H9V6h1V5H9V3H8v3H6v1H4V6H3V3H2v2H1v1h1v2h1Zm-2 1h1V9H1ZM0 9h1V6H0Zm2 2h7v-1H2Zm7-1h1V9H9ZM3 3h5V2H3Zm0 0"
+        },
+        { DinkieIconName.Eyeglasses12, "M1 9h3V8h1V6h1v2h1v1h3V8h1V3H6v1H5V3H0v5h1Zm0-2V5h3v2Zm6 0V5h3v2Zm0 0" },
+        {
+            DinkieIconName.Boy12,
+            "M2 6h1V4h1v1h1V4h1v1h1V4h1v2h1V2H8v1H3V2H2Zm-1 4H0v2h11v-2h-1v1H6v-1H5v1H1Zm0 0h1V9H1Zm1-1h2V8H2Zm2 1h1V9H4Zm2 0h1V9H6ZM3 7h1V6H3Zm1 1h3V7H4Zm3 1h2V8H7Zm2 1h1V9H9ZM7 7h1V6H7ZM3 2h5V1H3Zm0 0"
+        },
+        {
+            DinkieIconName.BoyFilled12,
+            "M0 12h11v-2h-1V9H9V8H7v1H6v1H5V9H4V8H2v1H1v1H0Zm3-5h5V6h1V2H8v1H3V2H2v4h1Zm1-2V4h1v1Zm2 0V4h1v1ZM3 2h5V1H3Zm0 0"
+        },
+        {
+            DinkieIconName.BoyFilled10,
+            "M2 6h5V5h1V2H7v1H2V2H1v3h1Zm-2 4h9V8H8V7H6v1H5v1H4V8H3V7H1v1H0Zm3-5V4h1v1Zm2 0V4h1v1ZM2 2h5V1H2Zm0 0"
+        },
+        {
+            DinkieIconName.Boy10,
+            "M1 6h1V4h1v1h1V4h1v1h1V4h1v2h1V2H7v1H2V2H1Zm0 2H0v2h9V8H8v1H5V8H4v1H1Zm0 0h1V7H1Zm2 0h1V7h1v1h1V7h1V6H2v1h1Zm4 0h1V7H7ZM2 2h5V1H2Zm0 0"
+        },
+        {
+            DinkieIconName.Girl12,
+            "M2 6H1V3H0v5h1V7h1Zm0 0h1V4h1v1h1V4h1v1h1V4h1v2h1V3h1V2H8v1H3V2H1v1h1Zm-1 4H0v2h11v-2h-1v1H6v-1H5v1H1Zm0 0h1V9H1Zm1-1h2V8H2Zm2 1h1V9H4Zm2 0h1V9H6ZM3 7h1V6H3Zm1 1h3V7H4Zm3 1h2V8H7Zm2 1h1V9H9ZM7 7h1V6H7ZM3 2h5V1H3Zm7 6h1V3h-1v3H9v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.GirlFilled12,
+            "M3 7h5V6h1V3h1V2H8v1H3V2H1v1h1v3h1Zm-3 5h11v-2h-1V9H9V8H7v1H6v1H5V9H4V8H2v1H1v1H0Zm0-4h1V7h1V6H1V3H0Zm4-3V4h1v1Zm2 0V4h1v1ZM3 2h5V1H3Zm7 6h1V3h-1v3H9v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.GirlFilled10,
+            "M0 7h1V5h1v1h5V5h1v2h1V2H7v1H2V2H0Zm0 3h9V9H8V8H7V7H6v1H5v1H4V8H3V7H2v1H1v1H0Zm3-5V4h1v1Zm2 0V4h1v1ZM2 2h5V1H2Zm0 0"
+        },
+        {
+            DinkieIconName.Girl10,
+            "M0 10h9V8H8v1H5V8H4v1H1V8H0Zm0-3h1V6h1V4H1V3h1V2H0Zm3 1h1V7h1v1h1V7h1V6H2v1h1Zm0-3h1V4h1v1h1V4h1V3H2v1h1ZM2 2h5V1H2Zm6 5h1V2H7v1h1v1H7v2h1Zm0 0"
+        },
+        {
+            DinkieIconName.Ghost12,
+            "M3 9H0v1h1v1h1v-1h1Zm0 0h1V2H3Zm-1 3h6v-1H2Zm6-1h1v-1H8ZM6 9h1V8h1V7H6Zm3 1h1V9H9ZM6 6h1V4H6Zm2 0h1V4H8Zm2 3h1V3h-1ZM4 2h5V1H4Zm5 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.ExtraterrestrialAlien12,
+            "M6 8h2V7h1V5H7v1H6Zm-3 3h1v-1H3Zm-1-1h1V9H2ZM1 9h1V8H1Zm3 3h3v-1H4ZM0 8h1V4H0Zm5 2h1V9H5Zm2 1h1v-1H7ZM3 8h2V6H4V5H2v2h1ZM1 4h1V3H1Zm7 6h1V9H8Zm1-1h1V8H9ZM2 3h7V2H2Zm8 5h1V4h-1ZM9 4h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.AlienMonster12,
+            "M4 12h1v-2h1v2h1v-2h1V9h2V8H9V5H8V3H7v1H4V3H3v2H2v3H1v1h2v1h1Zm-2 0h1v-2H2ZM0 8h1V3H0Zm4 0V6h1v2Zm4 4h1v-2H8ZM1 3h1V2H1Zm5 5V6h1v2Zm4 0h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.AlienMonster10,
+            "M3 10h1V8h1v2h1V8h1V7h1V6H7V4H6V3H3v1H2v2H1v1h1v1h1Zm-2 0h1V8H1ZM0 6h1V3H0Zm3 0V5h1v1Zm4 4h1V8H7ZM5 6V5h1v1ZM2 3h1V2H2Zm4 0h1V2H6Zm2 3h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.Skull12,
+            "M3 12h5v-1H7v-1h1v1h1V8H8v1H3V8H2v3h1v-1h1v1H3ZM1 8h1V6H1Zm4 3v-1h1v1ZM0 6h1V3H0Zm5 2h1V7H5ZM1 3h1V2H1Zm2 3h2V4H3Zm3 0h2V4H6Zm3 2h1V6H9ZM2 2h7V1H2Zm8 4h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.InformationDeskPerson12,
+            "M0 12h1V9h1v3h4v-2h1v1h2V6H8v3H7V8H6V7H5v1H4V7H1v1H0Zm2-6h3V5H2ZM1 5h1V4h1V3h1v1h1v1h1V2H5V1H2v1H1Zm8 1h2V5H9Zm0 0"
+        },
+        {
+            DinkieIconName.Syringe12,
+            "M3 11h2v-1h1V9H5V7H3V6H2v1H1v2h1v1h1Zm-3 1h1v-1H0Zm1-1h1v-1H1Zm5-2h1V8H6ZM3 6h1V5H3Zm2 1h1V6H5Zm2 1h1V7H7ZM4 5h1V4H4Zm4 2h1V6H8ZM5 4h1V3H5Zm1 2h2V5h1V4h1V3H9V2H8v1H7v1H6Zm1-4h1V1H7Zm3 3h1V4h-1Zm0 0"
+        },
+        {
+            DinkieIconName.Pill12,
+            "M2 10h1V9h1V8H3V7h1v1h1V7h1v1h1V7h1v1H7v1h1v1h1V3H8v3H3V3H2Zm1 1h1v-1H3Zm1 1h3v-1H6v-1H5v1H4Zm0-2h1V9H4Zm3 1h1v-1H7ZM5 9h1V8H5Zm1 1h1V9H6ZM3 3h1V2H3Zm1-1h3V1H4Zm3 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.PillFilled12,
+            "M4 12h3v-1h1v-1h1V3H8v1H7v1h1v1H7V5H6v1H5V5H4v1H3V5h1V4H3V3H2v7h1v1h1ZM3 3h1V2H3Zm2 2h1V4H5ZM4 4h1V3H4Zm2 0h1V3H6ZM4 2h3V1H4Zm3 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Love12,
+            "M0 11h11V2H0Zm2-1V9H1V4h1V3h7v1h1v5H9v1Zm0-1h1V8H2Zm0-4h1V4H2Zm3 4h1V8h1V7h1V5H6v1H5V5H3v2h1v1h1Zm3 0h1V8H8Zm0-4h1V4H8Zm0 0"
+        },
+        {
+            DinkieIconName.GemStone12,
+            "M0 7h1V5h2v2h1V5h3v2h1V5h2v2h1V3h-1v1H8V3H7v1H4V3H3v1H1V3H0Zm1 1h1V7H1Zm1 1h1V8H2Zm1 1h1V9H3Zm2 2h1v-1h1v-1H6V9H5v1H4v1h1ZM4 9h1V7H4Zm3 1h1V9H7ZM6 9h1V7H6ZM1 3h1V2H1Zm7 6h1V8H8Zm1-1h1V7H9ZM4 3h1V2h1v1h1V2h2V1H2v1h2Zm5 0h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.BrokenHeart12,
+            "M6 11H5v1h1Zm0 0h1v-1h1V9h1V8h1V6h1V3h-1V2H7v1H6v1h1v1H6v1h1v2H6Zm-3-1h2V9H4V8h1V6H4V5h1V3H4V2H1v1H0v3h1v2h1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.ElectricLightBulb12,
+            "M3 12h5V8H7v1H6V7H5v2H4V8H3Zm1-1v-1h3v1ZM2 8h1V7H2ZM1 7h1V3H1Zm3 0h1V6h1v1h1V5H4ZM2 3h1V2H2Zm6 5h1V7H8ZM3 2h5V1H3Zm6 5h1V3H9ZM8 3h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.ElectricLightBulbFilled12,
+            "M3 9h2V7H4V5h3v2H6v2h2V8h1V7h1V3H9V2H8V1H3v1H2v1H1v4h1v1h1Zm0 3h5v-2H3Zm2-5h1V6H5Zm0 0"
+        },
+        { DinkieIconName.ElectricLightBulbFilled10, "M2 7h2V5H3V4h3v1H5v2h2V6h1V2H7V1H2v1H1v4h1Zm0 3h5V8H2Zm0 0" },
+        {
+            DinkieIconName.ElectricLightBulb10,
+            "M2 10h5V6H6v1H5V5h1V4H3v1h1v2H3V6H2Zm1-1V8h3v1ZM1 6h1V2H1Zm1-4h5V1H2Zm5 4h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Bomb12,
+            "M2 5H1v1h1Zm0 0h5V3H5V2H4v1H2Zm-1 6h1v-1H1Zm-1-1h1V6H0Zm2 2h5v-1H2Zm5-1h1v-1H7Zm1-1h1V6H8ZM7 6h1V5H7Zm3 1h1V6h-1ZM5 2h4V1H5Zm5 3h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.BombFilled12,
+            "M2 12h5v-1h1v-1h1V6H8V5H7V3H5V2H4v1H2v2H1v1H0v4h1v1h1Zm4-3V8h1v1Zm0-2V6H5V5h1v1h1v1Zm4 0h1V6h-1ZM5 2h4V1H5Zm5 3h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Droplet12,
+            "M3 12h5v-1h1V7H8v2H7v1H5V9H4V5H3v2H2v4h1Zm1-7h1V3H4Zm3 2h1V5H7ZM6 5h1V3H6ZM5 3h1V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.PileOfPoo12,
+            "M1 12h9v-1H1Zm-1-1h1V9H0Zm1-2h2V8H2V6H1Zm3 0h1V8H4Zm1 1h1V9H5ZM2 6h1V4H2Zm4 3h1V8H6ZM4 7h1V5H4Zm6 4h1V9h-1ZM3 4h2V3H3Zm3 3h1V5H6Zm2 2h2V6H9v2H8Zm0-3h1V4H8ZM5 3h1V2h1V1H4v1h1Zm2 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.SpeechBalloon12,
+            "M1 12h3v-1H3V9H2v2H1Zm0-3h1V8H1Zm3 2h1v-1H4ZM0 8h1V3H0Zm5 2h4V9H5ZM3 6h1V5H3ZM1 3h1V2H1Zm4 3h1V5H5Zm4 3h1V8H9ZM7 6h1V5H7ZM2 2h7V1H2Zm8 6h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SpeechBalloonFilled10,
+            "M0 10h2V9h1V8h5V7h1V2H8V1H1v1H0v5h1v2H0Zm2-5V4h1v1Zm2 0V4h1v1Zm2 0V4h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.SpeechBalloon10,
+            "M0 10h3V9H2V7H1v2H0Zm3-1h1V8H3ZM0 7h1V2H0Zm2-2h1V4H2Zm2 3h4V7H4Zm0-3h1V4H4Zm2 0h1V4H6ZM1 2h7V1H1Zm7 5h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.HundredPointsSymbol12,
+            "M1 9h1V3H1v1H0v1h1Zm-1 3h3v-1H0Zm3-1h4v-1H3Zm0-2h3V8H3Zm0-2h2V6H4V3H3Zm4 3h4V9H7ZM6 8h4V7H6ZM5 6h1V2H4v1h1Zm2 0h2V5H8V2H7Zm2-1h1V1H8v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.MoneyBag12,
+            "M1 3h1V2h7v1h1V1H1Zm-1 8h1V7H0Zm1 1h9v-1H1Zm3-2h1V9H4ZM1 7h1V5H1Zm5 3h1V9H6ZM5 9h1V8h2V7H6V6H5v1H3v1h2Zm5 2h1V7h-1ZM2 5h7V3H2Zm7 2h1V5H9Zm0 0"
+        },
+        {
+            DinkieIconName.MoneyBagFilled12,
+            "M1 12h9v-1h1V7h-1V5H9V4H2v1H1v2H0v4h1Zm3-2V9h1V8H3V7h2V6h1v1h2v1H6v1h1v1H6V9H5v1ZM2 3h7V2h1V1H1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.MoneyBag10,
+            "M1 10h7V9h1V7H8V5H7V4H2v1H1v2H0v2h1Zm2-1V8h1V7H3V6h1V5h1v1h1v1H5v1h1v1H5V8H4v1ZM2 3h5V2h1V1H1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.HeavyDollarSign12,
+            "M5 12h1v-2h3V9h1V7H9V6H6V5h3V3H6V1H5v2H2v1H1v2h1v1h3v1H1v2h4ZM3 6V5h2v1Zm3 2V7h2v1Zm0 0"
+        },
+        {
+            DinkieIconName.HeavyDollarSign10,
+            "M4 10h1V9h2V8h1V6H7v1H5V6h2V5H5V4h2V2H5V1H4v1H2v1H1v2h1V4h2v1H2v1h2v1H1v2h3Zm0 0"
+        },
+        {
+            DinkieIconName.PersonalComputer12,
+            "M0 12h11V1H0Zm2-1v-1h1v1ZM1 9V8h1v1Zm2 0V8h1v1Zm1 2v-1h3v1Zm1-2V8h1v1Zm3 2v-1h1v1ZM7 9V8h1v1Zm2 0V8h1v1ZM1 7V2h9v5Zm0 0"
+        },
+        {
+            DinkieIconName.Briefcase12,
+            "M0 11h1V8h1V7H1V5h9v2H9v1h1v3h1V4H9V2H8V1H3v1H2v2H0Zm1 1h9v-1H1Zm3-2h3V9h2V8H2v1h2ZM3 4V3h5v1Zm0 0"
+        },
+        {
+            DinkieIconName.Briefcase10,
+            "M0 9h1V6h1V5H1V4h7v1H7v1h1v3h1V3H7V2H6v1H3V2H2v1H0Zm1 1h7V9H1Zm3-2h1V7h2V6H2v1h2ZM3 2h3V1H3Zm0 0"
+        },
+        {
+            DinkieIconName.FloppyDisk12,
+            "M0 12h11V3h-1v8H9V7H2v4H1V2h1v4h6V2h1V1H0Zm3-1V8h5v3Zm0-6V2h1v3Zm2 0V2h2v3Zm4-2h1V2H9Zm0 0"
+        },
+        { DinkieIconName.FloppyDiskFilled12, "M0 12h11V3h-1V2H9V1H8v4H3V1H0Zm2-1V7h7v4Zm3-7h2V1H5Zm0 0" },
+        { DinkieIconName.FloppyDiskFilled10, "M0 10h9V3H8V2H7V1H6v3H2V1H0Zm2-1V6h5v3Zm2-6h1V1H4Zm0 0" },
+        {
+            DinkieIconName.FloppyDisk10, "M0 10h9V3H8v6H7V6H2v3H1V2h1v3h4V2h1V1H0Zm3-1V7h3v2Zm1-5V2h1v2Zm3-1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.OpticalDisc12,
+            "M3 12h5v-1H6V8h1v2h1v1h1v-1h1V9H9V8H8V7H7V5h1V4h2V3H9V2H8V1H3v1h2v3H4V3H3V2H2v1H1v1h1v1h1v1h1v2H3v1H1v1h1v1h1ZM0 9h1V4H0Zm5-2V6h1v1Zm5 2h1V4h-1Zm0 0"
+        },
+        {
+            DinkieIconName.FileFolder12,
+            "M0 12h9v-2h1V9H9V6h1V5H8v6H1V2h9V1H0Zm2-4h4V7H2Zm0-2h4V5H2Zm0-2h4V3H2Zm8 5h1V6h-1Zm0-4h1V2h-1Zm0 0"
+        },
+        { DinkieIconName.FileFolderFilled12, "M0 12h9V6h2V2h-1V1H0Zm2-4V7h4v1Zm0-2V5h4v1Zm0-2V3h4v1Zm8 7h1V7h-1Zm0 0" },
+        { DinkieIconName.FileFolderFilled10, "M0 10h7V4h2V1H0Zm2-4V5h3v1Zm0-2V3h3v1Zm6 4h1V5H8Zm0 0" },
+        { DinkieIconName.FileFolder10, "M0 10h8V8h1V5H8V4H7v5H1V2h7v2h1V1H0Zm2-4h3V5H2Zm0-2h3V3H2Zm0 0" },
+        {
+            DinkieIconName.PageCurl12,
+            "M0 12h8v-1H7V8h3v1h1V1H0Zm1-1V2h9v5H6v4Zm1-3h3V7H2Zm6 3h1v-1H8Zm1-1h1V9H9ZM2 6h7V5H2Zm0-2h7V3H2Zm0 0"
+        },
+        {
+            DinkieIconName.PageCurlFilled12,
+            "M0 12h8v-1H7V8h3v1h1V1H0Zm2-4V7h3v1Zm6 3h1v-1H8Zm1-1h1V9H9ZM2 6V5h7v1Zm0-2V3h7v1Zm0 0"
+        },
+        { DinkieIconName.PageCurlFilled10, "M0 10h7V9H6V7h2v1h1V1H0Zm2-2V7h2v1Zm5 1h1V8H7ZM2 6V5h5v1Zm0-2V3h5v1Zm0 0" },
+        {
+            DinkieIconName.PageCurl10,
+            "M0 10h7V9H6V7h2v1h1V1H0Zm1-1V2h7v4H5v3Zm1-1h2V7H2Zm0-2h2V5H2Zm5 3h1V8H7ZM2 4h5V3H2Zm0 0"
+        },
+        {
+            DinkieIconName.PageFacingUp12,
+            "M0 12h11V4h-1v1H7V2h1V1H0Zm1-1V2h5v4h4v5Zm1-1h4V9H2Zm0-4h3V5H2Zm0 2h7V7H2Zm0-4h3V3H2Zm6-1h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.PageFacingUpFilled12,
+            "M0 12h11V4h-1v1H7V2h1V1H0Zm2-2V9h4v1Zm0-4V5h3v1Zm0 2V7h7v1Zm0-4V3h3v1Zm6-1h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.PageFacingUpFilled10,
+            "M0 10h9V3H8v1H6V2h1V1H0Zm2-2V7h4v1Zm0-2V5h5v1Zm0-2V3h3v1Zm5-1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.PageFacingUp10,
+            "M0 10h9V3H8v1H6V2h1V1H0Zm1-1V2h4v3h3v4Zm1-1h4V7H2Zm0-2h2V5H2Zm0-2h2V3H2Zm5-1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Calendar12,
+            "M0 12h11V1H0Zm1-1V4h9v7Zm1-1h1V9H2Zm0-2h1V7H2Zm2 2h1V9H4Zm0-2h1V7H4Zm2 2h1V9H6ZM2 6h1V5H2Zm4 2h1V7H6ZM4 6h1V5H4Zm4 2h1V7H8ZM6 6h1V5H6Zm2 0h1V5H8Zm0 0"
+        },
+        {
+            DinkieIconName.CalendarAlt12,
+            "M0 12h11V1H0Zm1-1V6h9v5Zm2-1h1V7H3Zm3 0h1V9H6ZM1 5V4h1V2h1v3Zm6 4h1V7H5v1h2ZM4 5V2h1v2h1V2h1v3Zm4 0V2h1v2h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.Calendar10,
+            "M0 10h9V1H0Zm1-1V4h7v5Zm1-1h1V7H2Zm0-2h1V5H2Zm2 2h1V7H4Zm0-2h1V5H4Zm2 2h1V7H6Zm0-2h1V5H6Zm0 0"
+        },
+        {
+            DinkieIconName.Clipboard12,
+            "M4 12h5v-1H8V9h2v1h1V5H9V2H7V1H2v1H0v9h4Zm-3-2V3h1v1h5V3h1v2H4v1H2v1h2v1H2v1h2v1Zm4 1V6h5v2H7v3Zm4 0h1v-1H9ZM3 3V2h3v1Zm0 0"
+        },
+        {
+            DinkieIconName.ClipboardFilled12,
+            "M0 11h4V9H2V8h2V7H2V6h2V5h5V2H7V1H2v1H0Zm5 1h4v-1H8V9h2v1h1V6H5Zm4-1h1v-1H9ZM3 3V2h3v1Zm0 0"
+        },
+        { DinkieIconName.ClipboardFilled10, "M0 9h4V5h4V2H6V1H2v1H0Zm5 1h4V6H5ZM3 3V2h2v1Zm0 0" },
+        { DinkieIconName.Clipboard10, "M4 10h5V5H8V2H6V1H2v1H0v7h4ZM1 8V3h1v1h4V3h1v2H4v3Zm4 1V6h3v3ZM3 3V2h2v1Zm0 0" },
+        { DinkieIconName.Pushpin12, "M5 12h1V9h4V7H9v1H2V7H1v2h4ZM2 7h7V6H8V3H7v3H4V3H3v3H2Zm0-4h1V2h5v1h1V1H2Zm0 0" },
+        { DinkieIconName.PushpinFilled12, "M5 12h1V9h4V8H9V7H2v1H1v1h4ZM3 6h5V3h1V1H2v2h1Zm0 0" },
+        { DinkieIconName.PushpinFilled10, "M4 10h1V7h3V6H7V5H6V2h1V1H2v1h1v3H2v1H1v1h3Zm0 0" },
+        { DinkieIconName.Pushpin10, "M4 10h1V7h3V6H7V5H6v1H3V5H2v1H1v1h3ZM3 5h1V2h1v3h1V2h1V1H2v1h1Zm0 0" },
+        {
+            DinkieIconName.RoundPushpin12,
+            "M5 12h1V8h1V7H6V6H5v1H4v1h1ZM3 7h1V6H3ZM2 6h1V3H2Zm1-3h1V2H3Zm4 4h1V6H7ZM4 2h3V1H4Zm4 4h1V3H8ZM7 3h1V2H7Zm0 0"
+        },
+        { DinkieIconName.RoundPushpinFilled12, "M5 12h1V7h2V6h1V2H8V1H3v1H2v4h1v1h2Zm2-8V3H6V2h1v1h1v1Zm0 0" },
+        { DinkieIconName.RoundPushpinFilled10, "M4 10h1V6h1V5h1V2H6v1H5V2h1V1H3v1H2v3h1v1h1Zm0 0" },
+        { DinkieIconName.RoundPushpin10, "M4 10h1V6h1V5H3v1h1ZM2 5h1V2H2Zm4 0h1V2H6ZM3 2h3V1H3Zm0 0" },
+        {
+            DinkieIconName.Paperclip12,
+            "M2 11h1V3H2Zm1 1h4v-1H3Zm1-3h1V4H4Zm3 2h1V4H7ZM3 3h1V2H3Zm2 1h2V3H5Zm4 5h1V3H9ZM4 2h4V1H4Zm4 1h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.Paperclip10,
+            "M1 9h1V3H1Zm1 1h3V9H2Zm1-2h1V4H3Zm2 1h1V4H5ZM2 3h1V2H2Zm2 1h1V3H4Zm3 4h1V3H7ZM3 2h3V1H3Zm3 1h1V2H6Zm0 0"
+        },
+        { DinkieIconName.StraightRuler12, "M0 10h11V3H0Zm1-1V4h1v1h1V4h1v2h1V4h1v1h1V4h1v2h1V4h1v5Zm0 0" },
+        {
+            DinkieIconName.TriangularRuler12,
+            "M0 12h11v-2h-1v1H1V2h1V1H0Zm2-2h5V9H6V8H5v1H3V7h1V6H3V5H2Zm2-2h1V7H4ZM2 3h1V2H2Zm1 1h1V3H3Zm1 1h1V4H4Zm1 1h1V5H5Zm1 1h1V6H6Zm1 1h1V7H7Zm1 1h1V8H8Zm1 1h1V9H9Zm0 0"
+        },
+        { DinkieIconName.ClosedBook12, "M1 12h10v-1h-1V9h1V1H1v1h9v6H1V2H0v9h1V9h8v2H1Zm2-6h6V5H3Zm0-2h6V3H3Zm0 0" },
+        { DinkieIconName.ClosedBookFilled12, "M0 11h1V9h10V1H1v1H0Zm1 1h10v-1H1Zm2-6V5h6v1Zm0-2V3h6v1Zm0 0" },
+        { DinkieIconName.ClosedBookFilled10, "M0 9h1V8h8V1H1v1H0Zm1 1h8V9H1Zm1-6V3h5v1Zm0 0" },
+        { DinkieIconName.ClosedBook10, "M1 10h8V9H8V8h1V1H1v1h7v5H1V2H0v7h1V8h6v1H1Zm1-6h5V3H2Zm0 0" },
+        { DinkieIconName.OpenBook12, "M0 11h11V3h-1V2H6v1h3v5H6v1h4v1H6V9H5v1H1V9h4V8H2V3h3V2H1v1H0Zm5-7h1V3H5Zm0 0" },
+        { DinkieIconName.OpenBook10, "M0 9h9V2H8V1H5v1h2v4H5v1h3v1H5V7H4v1H1V7h3V6H2V2h2V1H1v1H0Zm4-6h1V2H4Zm0 0" },
+        {
+            DinkieIconName.Memo12,
+            "M0 12h9v-1H1V2h7v1h1V1H0Zm2-2h2V9H2Zm0-2h2V7H2Zm3 2h3V9H7V8H6V7H5ZM2 6h3V5H2Zm6 3h1V8H8ZM6 7h1V6H6ZM2 4h5V3H2Zm7 4h1V7H9ZM7 6h1V5H7Zm3 1h1V5h-1ZM8 5h2V4H8Zm0 0"
+        },
+        {
+            DinkieIconName.MemoFilled12,
+            "M0 12h9v-2H8v1H4V7h1V6H1V5h4v1h1V5h1V4h1V3h1V1H0Zm1-2V9h2v1Zm0-2V7h2v1Zm5 1V8h1v1ZM1 4V3h5v1Zm4 6h3V9h1V8h1V7h1V5h-1V4H8v1H7v1H6v1H5Zm0 0"
+        },
+        {
+            DinkieIconName.MemoFilled10,
+            "M0 10h7V9H4V6h1V5h1V4h1V1H0Zm1-2V7h2v1Zm0-2V5h2v1Zm0-2V3h3v1Zm4 4h2V7h1V6h1V5H8V4H7v1H6v1H5Zm0 0"
+        },
+        {
+            DinkieIconName.Memo10,
+            "M0 10h7V9H1V2h6V1H0Zm2-2h1V7H2Zm0-2h1V5H2Zm2 2h3V7H6V6H5V5H4ZM2 4h2V3H2Zm5 3h1V6H7ZM5 5h1V4H5Zm3 1h1V4H8ZM6 4h2V3H6Zm0 0"
+        },
+        {
+            DinkieIconName.SatelliteAntenna12,
+            "M6 10H5v1H4v1h6v-2H9v1H6Zm0 0h1V8h1V5h1V1H8v2H7v2H6v1H5v1H3v1H1v1h4V8h1ZM0 8h1V5H0Zm1-3h1V3H1Zm7 5h1V8H8ZM3 4h1V3H3Zm1 1h1V4H4ZM1 2h1V1H1Zm2 0h2V1H3Zm2-1h3V0H5Zm0 0"
+        },
+        {
+            DinkieIconName.PublicAddressLoudspeaker12,
+            "M1 12h4v-2H4v1H2V8h1v2h1V8h1V7H4V4h1V3H0v5h1Zm0-5V4h2v3Zm4 2h2V8H5Zm0-6h2V2H5Zm2 7h3V7h1V4h-1V1H7v1h2v7H7Zm0 0"
+        },
+        {
+            DinkieIconName.PublicAddressLoudspeaker10,
+            "M1 10h3V9H3V7h1V6H3V4h1V3H0v4h1Zm0-4V4h1v2Zm3 2h2V7H4Zm0-5h2V2H4Zm2 6h2V6h1V4H8V1H6v1h1v6H6Zm0 0"
+        },
+        {
+            DinkieIconName.ClosedMailboxLoweredFlag12,
+            "M4 12h3V9h4V4h-1v4H6V4H5v4H3v1h1ZM0 9h2V7h2V6H0Zm0-4h1V4H0Zm1-1h1V3H1Zm4 7V9h1v2Zm1-7h1V3h2V2H2v1h4Zm3 0h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.ClosedMailboxRaisedFlag12,
+            "M4 12h3V9h4V4h-1v4H6V4H5v4H1V4H0v5h4Zm1-1V9h1v2ZM3 7h1V1H2v3h1Zm3-3h1V3h2V2H5v1h1Zm3 0h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.OpenMailboxRaisedFlag12,
+            "M4 12h3V9h4V4h-1V3H9V2H5v1h1v1H5v4H1V4H0v5h4Zm1-1V9h1v2ZM3 7h1V1H2v3h1Zm3 1V7h4v1Zm0 0"
+        },
+        {
+            DinkieIconName.OpenMailboxLoweredFlag12,
+            "M4 12h3V9h4V4h-1V3H9V2H2v1h4v1H5v4H3v1h1ZM0 9h2V7h2V6H0Zm0-4h1V4H0Zm1-1h1V3H1Zm4 7V9h1v2Zm1-3V7h4v1Zm0 0"
+        },
+        {
+            DinkieIconName.U1F4F012,
+            "M0 12h11V4h-1v1H7V2h1V1H0Zm1-1V2h5v1H2v3h8v5Zm1-1h3V9H2Zm0-2h3V7H2Zm4 2h1V7H6Zm2 0h1V7H8Zm0-7h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        { DinkieIconName.MobilePhone12, "M2 12h7V1H2Zm1-1V2h1v1h3V2h1v9Zm0 0" },
+        { DinkieIconName.MobilePhoneAlt12, "M2 12h7V1H2Zm3-1v-1h1v1ZM3 9V4h5v5Zm1-6V2h3v1Zm0 0" },
+        {
+            DinkieIconName.MobilePhoneAlt212,
+            "M2 12h7V2H4V1H3v1H2Zm1-2V9h1v1Zm0-2V7h1v1Zm2 2V9h1v1Zm2 0V9h1v1ZM5 8V7h1v1Zm2 0V7h1v1ZM3 6V3h5v3Zm0 0"
+        },
+        {
+            DinkieIconName.AntennaBars12,
+            "M1 2H0v9h1Zm0 0h9V1H1Zm0 10h9v-1H1Zm1-3h1V7H2Zm2 0h1V6H4Zm2 0h1V5H6Zm2 0h1V4H8Zm2 2h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.AntennaBarsFilled12,
+            "M1 12h9v-1h1V2h-1V1H1v1H0v9h1Zm1-3V7h1v2Zm2 0V6h1v3Zm2 0V5h1v4Zm2 0V4h1v5Zm0 0"
+        },
+        {
+            DinkieIconName.Camera12,
+            "M0 12h11V3h-1V2H7v1H4V2H2v1H0Zm1-1V7h3v2h1V6H1V4h7V3h1v1h1v2H8v3h1V7h1v4Zm4-1h3V9H5Zm0-4h3V5H5Zm0 0"
+        },
+        {
+            DinkieIconName.Television12,
+            "M1 12h1v-1h7v1h1v-1h1V1H0v10h1Zm1-2V9h1v1Zm6 0V9h1v1ZM1 8V2h9v6Zm1-1h7V3H2Zm0 0"
+        },
+        {
+            DinkieIconName.ShuffleArrowsFilled12,
+            "M1 12h9v-1h1V2h-1V1H1v1H0v9h1Zm7-2V9H6V8H5V7H4v1H3v1H1V8h2V7h1V6H3V5H1V4h2v1h1v1h1V5h1V4h2V3h1v1h1v1H9v1H8V5H6v1H5v1h1v1h2V7h1v1h1v1H9v1Zm0 0"
+        },
+        {
+            DinkieIconName.RepeatArrowFilled12,
+            "M1 12h9v-1h1V2h-1V1H1v1H0v9h1Zm2-2V9H2V8h1V7h1v1h5V6h1v2H9v1H4v1ZM1 7V5h1V4h5V3h1v1h1v1H8v1H7V5H2v2Zm0 0"
+        },
+        {
+            DinkieIconName.SpeakerWithCancellationStroke12,
+            "M7 9h1V8h1V5H8V1H6v1h1v5H6v1h1Zm-3 1h1V9H4Zm1 1h1v-1H5ZM2 9h2V6H3V5H2Zm4 3h2v-2H7v1H6ZM3 5h1V4H3ZM0 2h1V1H0Zm1 1h1V2H1Zm1 1h1V3H2Zm2 2h1V5H4Zm1 1h1V6H5Zm3 3h1V9H8Zm1 1h1v-1H9Zm1 1h1v-1h-1ZM4 4h1V3H4Zm1-1h1V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.Speaker12,
+            "M6 12h2V8h1V5H8V1H6v1h1v9H6Zm-2-2h1V9H4Zm1 1h1v-1H5ZM2 9h2V4H2Zm2-5h1V3H4Zm1-1h1V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.SpeakerWithOneSoundWave12,
+            "M5 12h2V8h1V5H7V1H5v1h1v9H5Zm-2-2h1V9H3Zm1 1h1v-1H4ZM1 9h2V4H1Zm7 1h1V9H8ZM3 4h1V3H3Zm1-1h1V2H4Zm5 6h1V4H9ZM8 4h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.SpeakerWithThreeSoundWaves12,
+            "M4 12h2V8h1V5H6V1H4v1h1v9H4Zm-2-2h1V9H2Zm1 1h1v-1H3ZM0 9h2V4H0Zm8 3h1v-1H8Zm-1-2h1V9H7ZM2 4h1V3H2Zm7 7h1v-1H9ZM3 3h1V2H3Zm5 6h1V4H8ZM7 4h1V3H7Zm3 6h1V3h-1ZM8 2h1V1H8Zm1 1h1V2H9Zm0 0"
+        },
+        { DinkieIconName.Battery12, "M0 10h10V8h1V5h-1V3H0Zm1-1V4h8v5Zm1-1h6V5H2Zm0 0" },
+        {
+            DinkieIconName.LeftMagnifyingGlass12,
+            "M8 8H7v1h1Zm0 0h1V3H8ZM1 9h1V8H1ZM0 8h1V3H0Zm2 2h5V9H2Zm0-3h1V4H2Zm1 1h3V7H3Zm4 3h1v-1H7Zm1 1h2v-1H8ZM1 3h1V2H1Zm9 8h1V9h-1ZM3 4h3V3H3Zm3 3h1V4H6Zm3 2h1V8H9ZM2 2h5V1H2Zm5 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.LeftMagnifyingGlassFilled12,
+            "M3 8h3V7h1V4H6V3H3v1H2v3h1ZM1 9h1V8H1Zm1 1h4V9H2ZM0 8h1V3H0Zm1-5h1V2H1Zm7 9h2v-1h1V9h-1V8H8V7H7v1H6v1h1v2h1ZM2 2h5V1H2Zm6 5h1V3H8ZM7 3h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.LeftMagnifyingGlassFilled10,
+            "M7 10h2V8H8V7H6v2h1ZM1 7h1V6H1Zm1 1h3V7H2ZM0 6h1V3H0Zm5 1h1V6H5ZM2 6h3V3H2ZM1 3h1V2H1Zm5 3h1V3H6ZM2 2h3V1H2Zm3 1h1V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.LeftMagnifyingGlass10,
+            "M7 10h2V8H8v1H7ZM1 7h1V6H1Zm1 1h3V7H2ZM0 6h1V3H0Zm5 1h1V6H5Zm1 2h1V8h1V7H6ZM1 3h1V2H1Zm5 3h1V3H6ZM2 2h3V1H2Zm3 1h1V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.RightMagnifyingGlass12,
+            "M10 8H9v1h1Zm0 0h1V3h-1Zm-9 4h2v-1H1Zm-1-1h1V9H0Zm1-2h1V8H1Zm2 2h1v-1H3Zm0-2h1V8H3ZM2 8h1V3H2Zm2 2h5V9H4Zm0-3h1V4H4Zm1 1h3V7H5ZM3 3h1V2H3Zm2 1h3V3H5Zm3 3h1V4H8ZM4 2h5V1H4Zm5 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.RightMagnifyingGlassFilled12,
+            "M5 8H4V7H3v1H1v1H0v2h1v1h2v-1h1V9h1Zm0 0h3V7h1V4H8V3H5v1H4v3h1ZM2 7h1V3H2Zm3 3h4V9H5ZM3 3h1V2H3Zm6 6h1V8H9ZM4 2h5V1H4Zm6 6h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.RightMagnifyingGlassFilled10,
+            "M4 6H3v1h1Zm0 0h3V3H4Zm-4 4h2V9h1V7H1v1H0Zm4-2h3V7H4ZM2 6h1V3H2Zm5 1h1V6H7ZM3 3h1V2H3Zm5 3h1V3H8ZM4 2h3V1H4Zm3 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.RightMagnifyingGlass10,
+            "M2 9H1V8H0v2h2Zm0 0h1V7H1v1h1Zm1-2h1V6H3Zm1 1h3V7H4ZM2 6h1V3H2Zm5 1h1V6H7ZM3 3h1V2H3Zm5 3h1V3H8ZM4 2h3V1H4Zm3 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Lock12,
+            "M0 12h11V6h-1V3H9v3H8V4H7v2H4V4H3v2H2V3H1v3H0Zm1-1V7h9v4Zm1-8h1V2H2Zm2 1h3V3H4ZM3 2h5V1H3Zm5 1h1V2H8Zm0 0"
+        },
+        { DinkieIconName.LockFilled12, "M0 12h11V6H9V2H8V1H3v1H2v4H0Zm9-1V7h1v4ZM4 6V3h3v3Zm0 0" },
+        { DinkieIconName.LockFilled10, "M0 10h9V6H7V3H6v3H3V3H2v3H0Zm3-7h3V2H3Zm0 0" },
+        {
+            DinkieIconName.OpenLock12,
+            "M0 12h11V7H4V4H3v3H2V3H1v4H0Zm1-1V8h9v3Zm1-8h1V2H2Zm2 1h3V3H4ZM3 2h5V1H3Zm4 4h3V3H9v2H8V4H7Zm1-3h1V2H8Zm0 0"
+        },
+        { DinkieIconName.OpenLockFilled12, "M0 12h11V7H4V3h3v2h2V2H8V1H3v1H2v5H0Zm9-1V8h1v3Zm0 0" },
+        { DinkieIconName.OpenLockFilled10, "M0 10h9V6H3V2H2v4H0Zm3-8h3V1H3Zm3 2h1V2H6Zm0 0" },
+        {
+            DinkieIconName.Bell12,
+            "M4 11h1v-1h1v1h1v-1h4V8h-1v1H1V8H0v2h4ZM1 8h1V7H1Zm4 4h1v-1H5ZM2 7h1V3H2Zm7 1h1V7H9ZM3 3h5V2H6V1H5v1H3Zm5 4h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.BellFilled12,
+            "M0 10h11V9h-1V8H9V3H8V2H6V1H5v1H3v1H2v5H1v1H0Zm4 2h3v-1H4Zm3-6V4H6V3h1v1h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.BellWithCancellationStroke12,
+            "M4 11h1v-1h1V9H1V8H0v2h4Zm1 1h1v-1H5ZM1 8h1V7H1Zm5 3h1v-1H6ZM2 7h1V6H2Zm6 3h1V9H8ZM2 4h1V3H2Zm5 5h1V8H7ZM3 5h1V4H3Zm2 2h1V6H5ZM4 6h1V5H4Zm2 2h1V7H6ZM1 3h1V2H1Zm8 8h1v-1H9Zm1 1h1v-1h-1ZM0 2h1V1H0Zm9 6h1V7H9Zm1 1h1V8h-1ZM8 7h1V3H8ZM4 3h4V2H6V1H5v1H4Zm0 0"
+        },
+        {
+            DinkieIconName.BellWithCancellationStrokeFilled12,
+            "M9 11h1v-1h1V9h-1V8H9V3H8V2H6V1H5v1H3v1H2v1h1v1h1v1h1v1h1v1h1v1h1v1h1Zm-5 1h3v-1H4Zm-4-2h7V9H6V8H5V7H4V6H3V5H2v3H1v1H0Zm1-7h1V2H1ZM0 2h1V1H0Zm10 10h1v-1h-1ZM7 6V4H6V3h1v1h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.LinkSymbol12,
+            "M4 7h1V6h1V5H5V4H4Zm-4 4h1V8H0Zm1 1h3v-1H1Zm3-1h1v-1H4ZM1 8h1V7H1Zm4 2h1V9H5ZM2 7h1V6H2Zm4 2h1V6H6v1H5v1h1Zm2-2h1V6H8ZM5 4h1V3H5Zm4 2h1V5H9ZM6 3h1V2H6Zm4 2h1V2h-1ZM7 2h3V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.LinkSymbol10,
+            "M3 6h1V5h1V4H4V3H3Zm-2 4h3V9H1ZM0 9h1V6H0Zm4 0h1V8H4ZM1 6h1V5H1Zm4 2h1V5H5v1H4v1h1Zm2-2h1V5H7ZM4 3h1V2H4Zm4 2h1V2H8ZM5 2h3V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.NoOneUnderEighteenSymbol12,
+            "M3 9h1V4H3v1H2v1h1Zm-2 2h1v-1H1Zm-1-1h1V3H0Zm2 2h7v-1H2Zm3-4h1V7H5Zm1 1h2V8H6Zm3 2h1v-1H9ZM1 3h1V2H1Zm7 7h1V9H8ZM2 4h1V3H2Zm3 2h1V5H5Zm1 1h2V6H6Zm2 1h1V7H8ZM6 5h2V4H6Zm2 1h1V5H8Zm2 4h1V3h-1ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.NoOneUnderEighteenSymbolFilled12,
+            "M3 12h5v-1h1v-1H8V9H6V8H5V7h1V6H5V5h1V4h2v1h1v1H8v1h1v1H8v1h1v1h1V9h1V4h-1V3H9V2H8V1H3v1H2v1h1v1h1v5H3V6H2V5h1V4H2V3H1v1H0v5h1v1h1v1h1Zm3-4h2V7H6Zm0-2h2V5H6Zm0 0"
+        },
+        {
+            DinkieIconName.KeycapTen12,
+            "M3 10h1V3H3v1H2v1h1Zm-3 1h1V2H0Zm1 1h9v-1H1Zm5-2h2V9H6ZM5 9h1V4H5Zm3 0h1V4H8ZM6 4h2V3H6ZM1 2h9V1H1Zm9 9h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.KeycapTenFilled12,
+            "M1 12h9v-1h1V2h-1V1H1v1H0v9h1Zm2-2V5H2V4h1V3h1v7Zm3 0V9H5V4h1V3h2v1h1v5H8v1Zm0-1h2V4H6Zm0 0"
+        },
+        {
+            DinkieIconName.KeycapTenFilled10,
+            "M1 10h7V9h1V2H8V1H1v1H0v7h1Zm1-2V3h1v5Zm2 0V4h1V3h2v4H6v1Zm1-1h1V4H5Zm0 0"
+        },
+        {
+            DinkieIconName.KeycapTen10,
+            "M6 7H5V4H4v4h2Zm0 0h1V3H5v1h1Zm-5 3h7V9H1ZM0 9h1V2H0Zm2-1h1V3H2Zm6 1h1V2H8ZM1 2h7V1H1Zm0 0"
+        },
+        {
+            DinkieIconName.InputNumbersFilled12,
+            "M1 12h9v-1h1V2h-1V1H1v1H0v9h1Zm7-1v-1H6V7h1v2h1V7h1v4ZM3 6V4H2V3h1V2h1v4Zm-1 5v-1h2V9H3V8H2V7h2v2h1v1H4v1Zm4-5V5h1V4h1V3H6V2h2v1h1v1H8v1h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.Fire12,
+            "M2 12h7v-1h1v-1h1V7h-1v1H9V6H8V4H7V3H6v2H5V2H4v1H3v2H2v3H1V6H0v3h1v2h1Zm2-1v-1H3V9h1V7h1v1h1v1h1V8h1v2H7v1Zm1-9h1V1H5Zm5 4h1V4h-1ZM9 4h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.Fire10,
+            "M2 10h5V9h1V8h1V5H8v1H7V5H6V3H5v2H4V2H3v1H2v3H1V4H0v4h1v1h1Zm1-1V8H2V7h1V6h1v1h1v1h1V7h1v1H6v1Zm1-7h1V1H4Zm4 2h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.Wrench12,
+            "M2 6h3V3H4v2H2ZM1 8h4V7H1ZM0 7h1V5h1V4H1V3H0Zm5 2h1V8H5Zm1 1h1V9H6Zm1 1h1v-1H7Zm1 1h2v-1H8Zm2-1h1V9h-1ZM9 9h1V8H9ZM8 8h1V7H8ZM7 7h1V6H7ZM3 3h1V2h2V1H2v1h1Zm3 3h1V2H6Zm0 0"
+        },
+        {
+            DinkieIconName.WrenchFilled12,
+            "M8 12h2v-1H9v-1h1v1h1V9h-1V8H9V7H8V6H7V2H6V1H2v1h2v1h1v2H4v1H2V5H1V3H0v4h1v1h4v1h1v1h1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.WrenchFilled10,
+            "M6 10h2V9H7V8h1v1h1V7H8V6H7V5H6V2H5V1H2v1h1v1h1v2H2V4H1V3H0v3h1v1h3v1h1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.Hammer12,
+            "M9 9h2V5H5v3h4V7H6V6h4v2H9Zm-9 3h5v-2H4v1H1v-1H0Zm1-2h3V9H1ZM0 9h1V4H0Zm4 0h1V8H4ZM1 4h1V3H1Zm1-1h1V2H2Zm2 2h1V3H4Zm1-2h1V2h1V1H3v1h2Zm0 0"
+        },
+        { DinkieIconName.HammerFilled12, "M0 9h4V3h1V2h1V1H3v1H2v1H1v2H0Zm0 3h4v-2H0Zm9-3h2V5H5v3h4Zm0 0" },
+        {
+            DinkieIconName.Hocho12,
+            "M0 4h2V3H1V2H0Zm2 4h1V7H2Zm1 1h1V8H3Zm1 1h1V9H4Zm1 1h1v-1H5Zm1 1h3v-1H6ZM3 7h1V6H3ZM2 5h2V4H2Zm2 1h1V5H4Zm5 5h1v-1H9ZM1 2h2V1H1Zm2 1h1V2H3Zm1 1h1V3H4Zm1 1h1V4H5Zm1 1h1V5H6Zm1 1h1V6H7Zm1 1h1V7H8Zm1 1h1V8H9Zm1 1h1V9h-1Zm0 0"
+        },
+        {
+            DinkieIconName.HochoFilled12,
+            "M6 12h3v-1h1v-1h1V9h-1V8H9V7H8V6H7V5H6V4H5v1H4v1H3v1H2v1h1v1h1v1h1v1h1ZM2 5h2V4H3V3H2V2h1V1H1v1H0v2h2Zm1-2h1V2H3Zm1 1h1V3H4Zm0 0"
+        },
+        {
+            DinkieIconName.HochoFilled10,
+            "M4 10h3V9h1V8h1V7H8V6H7V5H6V4H5V3H4v1H3v1H2v1H1v1h1v1h1v1h1ZM1 4h2V3H2V2h1V1H0v2h1Zm2-1h1V2H3Zm0 0"
+        },
+        {
+            DinkieIconName.Hocho10,
+            "M0 3h1V2h2V1H0Zm2 5h1V7H2Zm1 1h1V8H3ZM1 7h1V6H1Zm3 3h3V9H4ZM2 6h1V5H2ZM1 4h2V3H1Zm2 1h1V4H3Zm4 4h1V8H7ZM3 3h1V2H3Zm1 1h1V3H4Zm1 1h1V4H5Zm1 1h1V5H6Zm1 1h1V6H7Zm1 1h1V7H8Zm0 0"
+        },
+        {
+            DinkieIconName.Pistol12,
+            "M7 12h4V8h-1v3H8V7h1v1h1V3h1V2H8v1h1v3H1V4H0v3h3v2h1V7h1v1h1V7h1v2H4v1h3ZM1 4h7V3H2V2H1Zm0 0"
+        },
+        { DinkieIconName.PistolFilled12, "M7 12h4V8h-1V3h1V2H9v1H2V2H1v2H0v3h3v2h1V7h1v1h1V7h1v2H4v1h3Zm0 0" },
+        {
+            DinkieIconName.Microscope12,
+            "M9 10H8v1H6v-1H5v1H3v-1H1v1H0v1h11v-1H9Zm0 0h1V5H9V4H8V3H7V2H5v1h1v1h1v1h1v4h1Zm-5 0h1V9H4ZM3 9h1V8H3ZM2 8h1V7H2ZM1 7h1V6H1Zm5 3h2V9H6ZM4 7h2V6H5V5H4V4H3v2h1Zm0-3h1V3H4Zm2 2h1V5H6Zm2-3h1V1H7v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.Candle12,
+            "M1 12h9v-1H8V8H3v3H1Zm3-1V9h3v2ZM3 6h1V4H3Zm1 1h3V6H6V5H5v1H4Zm3-1h1V4H7ZM4 4h1V3h1V2H5V1H4Zm2 0h1V3H6Zm0 0"
+        },
+        {
+            DinkieIconName.Spider12,
+            "M4 6H3v1H1v1h2v1h1Zm0 0h3V5h1V4H6v1H5V4H3v1h1Zm-4 4h1V8H0Zm2 2h1V9H2Zm2-2h3V9H4ZM1 6h2V5H1ZM0 5h1V3H0Zm8 7h1V9H8ZM2 4h1V1H2Zm5 5h1V8h2V7H8V6H7Zm3 1h1V8h-1ZM5 4h1V3H5Zm3 2h2V5H8Zm0-2h1V1H8Zm2 1h1V3h-1Zm0 0"
+        },
+        {
+            DinkieIconName.Joystick12,
+            "M0 11h1v-1h9v1h1V7h-1v2H1V7H0Zm1 1h9v-1H1Zm0-5h1V6H1Zm1-1h2V5H2Zm2 2h3V7H6V3H5v4H4Zm3-2h2V5H7Zm2 1h1V6H9ZM4 3h1V2h1v1h1V1H4Zm0 0"
+        },
+        { DinkieIconName.DesktopComputer12, "M2 12h7v-1H7V9h4V1H0v8h4v2H2Zm3-1V9h1v2ZM1 8V7h9v1Zm0 0" },
+        { DinkieIconName.DesktopComputer10, "M2 10h5V9H6V8h3V1H0v7h3v1H2Zm2-1V8h1v1ZM1 7V6h7v1Zm0 0" },
+        {
+            DinkieIconName.ThreeNetworkedComputers12,
+            "M0 12h5V8H3V7h5v1H6v4h5V8H9V7h2V6H6V5h2V1H3v4h2v1H0v1h2v1H0Zm1-1V9h3v2Zm6 0V9h3v2ZM4 4V2h3v2Zm0 0"
+        },
+        {
+            DinkieIconName.TwoButtonMouse12,
+            "M2 11h1V8h5v3h1V4H8v3H6V4h2V3H6V2H5v1H3v1h2v3H3V4H2Zm1 1h5v-1H3ZM4 2h1V1H4Zm0 0"
+        },
+        {
+            DinkieIconName.TwoButtonMouseFilled12,
+            "M3 12h5v-1h1V8H2v3h1ZM2 7h3V3H3v1H2Zm4 0h3V4H8V3H6ZM5 3h1V2H5ZM4 2h1V1H4Zm0 0"
+        },
+        {
+            DinkieIconName.TwoButtonMouse10,
+            "M1 9h1V7h5v2h1V4H7v2H5V4h2V3H5V2H4v1H2v1h2v2H2V4H1Zm1 1h5V9H2Zm1-8h1V1H3Zm0 0"
+        },
+        { DinkieIconName.ThreeButtonMouse12, "M8 11H3v1h5Zm0 0h1V2H8Zm-6 0h1V2H2Zm1-9h5V1H3Zm0 0" },
+        {
+            DinkieIconName.ThreeButtonMouseAlt12,
+            "M1 11h1V8h7v3h1V4H9v3H6V6H5v1H2V4H1Zm1 1h7v-1H2Zm2-6h1V4h1v2h1V4h2V3H6V2H5v1H2v1h2Zm0-4h1V1H4Zm0 0"
+        },
+        { DinkieIconName.U1F5C412, "M0 12h11v-1h-1V1H1v10H0Zm2-1V7h7v4Zm2-2h3V8H4ZM2 6V2h7v4Zm2-2h3V3H4Zm0 0" },
+        {
+            DinkieIconName.DaggerKnife12,
+            "M0 12h3v-1H1V9H0Zm3-1h1v-1H3ZM1 9h1V8H1Zm3 1h1V9H4ZM2 8h1V7H2Zm3 1h1V8H5ZM3 7h1V6H3Zm3 1h1V7H6ZM4 6h1V5H4Zm3 1h1V6H7ZM5 5h1V4H5Zm1 1h1V5H6Zm2 2h3V6h-1v1H8ZM4 4h1V2h1V1H4Zm3 0h1V3H7Zm1 1h1V4H8ZM6 3h1V2H6Zm3 3h1V5H9ZM8 3h1V2h1V1H8Zm1 1h2V2h-1v1H9Zm0 0"
+        },
+        {
+            DinkieIconName.DaggerKnifeFilled12,
+            "M0 12h3v-1h1v-1h1V9h1V8h1V7h1v1h3V6h-1v1H9V6H8V5H7V4H6V3H5V2h1V1H4v3h1v1H4v1H3v1H2v1H1v1H0Zm6-9h1V2H6Zm3 3h1V5H9ZM8 5h1V4h2V2h-1V1H8v2H7v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.DaggerKnife10,
+            "M6 7h2V6H7V4h1V3h1V1H7v1H6v1H4V2H3v2h1v1h1v1h1Zm-6 3h2V9H1V8H0Zm1-2h1V7H1Zm1 1h1V8H2Zm0-2h1V6H2Zm1 1h1V7H3Zm0-2h1V5H3Zm1 1h1V6H4Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithTearsOfJoy12,
+            "M3 9h1V8h3v1h1V7H3Zm-2 2h1v-1H1Zm-1-1h1V9H0Zm2 2h7v-1H2ZM0 8h2V5H1v1H0Zm4 2h3V9H4ZM0 4h1V3H0Zm1-1h1V2H1Zm8 8h1v-1H9ZM2 5h3V4H2Zm8 5h1V9h-1ZM6 5h3V4H6Zm3 3h2V6h-1V5H9ZM2 2h7V1H2Zm7 1h1V2H9Zm1 1h1V3h-1Zm0 0"
+        },
+        {
+            DinkieIconName.SmilingFaceWithOpenMouth12,
+            "M3 9h1V8h3v1h1V7H3Zm-2 2h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm4 0h3V9H4ZM3 6h1V4H3ZM1 3h1V2H1Zm8 8h1v-1H9ZM7 6h1V4H7ZM2 2h7V1H2Zm8 8h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SmilingFaceWithOpenMouthAndSmilingEyes12,
+            "M3 9h1V8h3v1h1V7H3Zm-2 2h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm4 0h3V9H4ZM2 6h1V5H2Zm7 5h1v-1H9ZM4 6h1V5H4ZM1 3h1V2H1Zm2 2h1V4H3Zm3 1h1V5H6Zm2 0h1V5H8ZM7 5h1V4H7Zm3 5h1V3h-1ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SmilingFaceWithOpenMouthAndColdSweat12,
+            "M3 9h1V8h3v1h1V7H3Zm-2 2h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm4 0h3V9H4ZM2 6h1V5H2Zm7 5h1v-1H9ZM4 6h1V5H4ZM1 3h1V2H1Zm2 2h1V4H3Zm3 1h1V5H6Zm4 4h1V8h-1ZM9 7h1V6H9ZM8 6h1V3H8v1H7v1h1ZM2 2h6V1H2Zm8 4h1V3h-1ZM9 3h1V1H9Zm0 0"
+        },
+        {
+            DinkieIconName.WinkingFace12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm-1-1h1V3H0Zm2 2h7v-1H2Zm3-2h2V9H5ZM3 7h1V5H3ZM1 3h1V2H1Zm6 6h1V8H7ZM6 6h1V5H6Zm1 1h1V6H7Zm0-2h1V4H7ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SmilingFaceWithHeartShapedEyes12,
+            "M6 7h3V5H8V4H6Zm-5 4h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3-1h1V8H3Zm1 1h3V9H4ZM2 7h3V4H3v1H2Zm7 4h1v-1H9ZM1 3h1V2H1Zm6 6h1V8H7ZM2 2h7V1H2Zm8 8h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SmirkingFace12,
+            "M4 9h1V8h2v1h1V7H3v1h1Zm-3 2h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm5 0h2V9H5ZM4 6h1V4H2v1h2ZM1 3h1V2H1Zm8 8h1v-1H9ZM8 6h1V4H6v1h2ZM2 2h7V1H2Zm8 8h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.NeutralFace12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3-1h5V8H3Zm0-3h1V4H3ZM1 3h1V2H1Zm6 3h1V4H7ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.ExpressionlessFace12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3-1h5V8H3ZM2 6h3V5H2ZM1 3h1V2H1Zm5 3h3V5H6ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithColdSweat12,
+            "M2 6H1v1h1Zm0 0h3V5H3V3H2Zm-1 5h1v-1H1Zm-1-1h1V8H0Zm2 2h7v-1H2Zm1-2h1V9H3ZM0 6h1V3H0Zm4 3h3V8H4Zm3 1h1V9H7Zm2 1h1v-1H9ZM1 3h1V1H1Zm5 3h3V5H6Zm4 4h1V3h-1ZM3 2h6V1H3Zm6 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.FaceThrowingAKiss12,
+            "M8 10h3V8h-1V7H8Zm-7 1h1v-1H1Zm1 1h6v-1H2Zm-2-2h1V3H0Zm5 0h1V9H5Zm0-2h1V7H5Zm1 1h1V8H6ZM3 6h1V4H3ZM1 3h1V2H1Zm5 3h2V5H6ZM2 2h6V1H2Zm7 4h1V3H9ZM8 3h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithStuckOutTongueAndTightlyClosedEyes12,
+            "M4 11h1V9h1v2h1V9h1V8H3v1h1Zm-2 0h1v-1H2Zm-1-1h1V9H1Zm4 2h1v-1H5ZM0 9h1V3H0Zm3-2h1V6H3Zm5 4h1v-1H8ZM1 3h1V2H1Zm2 2h1V4H3Zm1 1h1V5H4Zm5 4h1V9H9ZM7 7h1V6H7ZM6 6h1V5H6Zm1-1h1V4H7ZM2 2h7V1H2Zm8 7h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.LoudlyCryingFace12,
+            "M2 12h7v-1h1v-1H9V6h1v4h1V3h-1v2H7v1h1v5H3V6h1V5H1V3H0v7h1V6h1v4H1v1h1Zm2-2h3V8H6v1H5V8H4Zm1-2h1V7H5ZM1 3h1V2H1Zm1-1h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.FaceScreamingInFear12,
+            "M3 12h5V9H7v2H4V9H3Zm-2 0h1v-2H1Zm1-3h1V8H2Zm-2 1h1V8h1V3H1v4H0Zm5 0h1V7H5Zm4 2h1v-2H9ZM3 7h1V6h1V4H4v1H3ZM2 3h1V2H2Zm6 6h1V8H8ZM7 7h1V5H7V4H6v2h1Zm3 3h1V7h-1V3H9v5h1ZM3 2h5V1H3Zm5 1h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.AstonishedFace12,
+            "M4 11h3V8H6v1H5V8H4Zm-2 1h1v-1H2Zm-1-1h1v-1H1Zm-1-1h1V3H0Zm8 2h1v-1H8ZM5 8h1V7H5ZM3 6h1V4H3ZM1 3h1V2H1Zm8 8h1v-1H9ZM7 6h1V4H7ZM2 2h7V1H2Zm8 8h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SleepingFace12,
+            "M2 12h7v-1H8v-1H7v1H4v-1H3v1H2Zm-1-1h1v-1H1Zm-1-1h1V4H0Zm2-3h1V6H2Zm1 1h1V7H3Zm1 2h3V9H4Zm0-3h1V6H4ZM1 4h1V3H1Zm8 7h1v-1H9ZM6 7h1V6H6Zm1 1h1V7H7ZM2 3h2V2H2Zm6 4h1V6H8Zm2 3h1V6h-1ZM6 5h2V4H7V2H5v1h1Zm3 0h2V4h-1V1H8v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.DizzyFace12,
+            "M3 10h5V8H7v1H4V8H3Zm-2 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm2-4h1V5H2Zm2 2h3V7H4ZM1 3h1V2H1Zm8 8h1v-1H9ZM3 5h1V4H3ZM2 4h1V3H2Zm2 2h1V5H4Zm2 0h1V5H6ZM4 4h1V3H4Zm3 1h1V4H7ZM6 4h1V3H6Zm2 2h1V5H8ZM2 2h7V1H2Zm8 8h1V3h-1ZM8 4h1V3H8Zm1-1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithMedicalMask12,
+            "M1 11h2V7h5v4h2v-1H9V9h1v1h1V3h-1v3H1V3H0v7h1V9h1v1H1Zm2 1h5v-1H3ZM1 8V7h1v1Zm0-5h1V2H1Zm2 2h2V4H3Zm6 3V7h1v1ZM6 5h2V4H6ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlyFrowningFace12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3 0h1V9H3Zm1-1h3V8H4Zm3 1h1V9H7ZM3 6h1V4H3ZM1 3h1V2H1Zm6 3h1V4H7ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlyFrowningFaceFilled12,
+            "M3 12h5v-1h2V9h1V4h-1V2H8V1H3v1H1v2H0v5h1v2h2Zm0-2V9h1V8h3v1h1v1H7V9H4v1Zm0-4V4h1v2Zm4 0V4h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlyFrowningFaceFilled10,
+            "M2 10h5V9h1V8h1V3H8V2H7V1H2v1H1v1H0v5h1v1h1Zm0-2V7h1V6h3v1h1v1H6V7H3v1Zm1-3V3h1v2Zm2 0V3h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlyFrowningFace10,
+            "M8 8H7v1h1Zm0 0h1V3H8ZM1 9h1V8H1ZM0 8h1V3H0Zm2 0h1V7H2Zm0 2h5V9H2Zm1-3h3V6H3ZM1 3h1V2H1Zm5 5h1V7H6ZM3 5h1V3H3Zm2 0h1V3H5ZM2 2h5V1H2Zm5 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlySmilingFace12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3-1h1V8H3Zm1 1h3V9H4ZM3 6h1V4H3ZM1 3h1V2H1Zm6 6h1V8H7Zm0-3h1V4H7ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlySmilingFaceFilled12,
+            "M3 12h5v-1h2V9h1V4h-1V2H8V1H3v1H1v2H0v5h1v2h2Zm1-2V9H3V8h1v1h3V8h1v1H7v1ZM3 6V4h1v2Zm4 0V4h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlySmilingFaceFilled10,
+            "M2 10h5V9h1V8h1V3H8V2H7V1H2v1H1v1H0v5h1v1h1Zm1-2V7H2V6h1v1h3V6h1v1H6v1Zm0-3V3h1v2Zm2 0V3h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.SlightlySmilingFace10,
+            "M8 8H7v1h1Zm0 0h1V3H8ZM1 9h1V8H1Zm1 1h5V9H2ZM0 8h1V3H0Zm2-1h1V6H2Zm1 1h3V7H3ZM1 3h1V2H1Zm2 2h1V3H3Zm3 2h1V6H6ZM5 5h1V3H5ZM2 2h5V1H2Zm5 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.UpsideDownFace12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3-1h1V7H3ZM1 3h1V2H1Zm2 2h1V4H3Zm4 4h1V7H7ZM4 4h3V3H4Zm3 1h1V4H7ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithNoGoodGesture12,
+            "M3 5h1V4h1V3h1v1h1v1h1V2H7V1H4v1H3Zm-2 7h4v-1H2V8H1Zm2-2h1V9h1V8H4V7H3V6H2V5H1v2h1v1h1ZM0 5h1V4H0Zm6 7h4V8H9v3H8v-1H7V9H6v1H5v1h1ZM5 8h1V7H5Zm2 1h1V8H7ZM4 6h3V5H4Zm4 2h1V7h1V5H9v1H8Zm2-3h1V4h-1Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithOkGesture12,
+            "M3 12h5v-2h1V9h1V8h1V4h-1V3H9v2h1v2H9v1H8v1H6v1H5V9H3V8H2V7H1V5h1V3H1v1H0v4h1v1h1v1h1Zm1-4h3V7H4ZM2 3h1V2H2Zm1 4h1V6h1V5h1v1h1v1h1V4H7V3H4v1H3Zm0-5h2V1H3Zm3 0h2V1H6Zm2 1h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.HappyPersonRaisingOneHand12,
+            "M3 12h5v-2h1v2h1V9H9V8H7v1H6V8H4V7H3V4H1v4h1v1h1v1h1v1H3Zm2-5h3V6H5ZM1 3h2V2H2V1H1Zm3 3h1V5h1V4h1v1h1v1h1V3H8V2H5v1H4Zm0 0"
+        },
+        {
+            DinkieIconName.PersonWithFoldedHands12,
+            "M7 12h4V7H9v4H7Zm-7 0h4v-1H2V7H0Zm4-1h1v-1H4ZM2 7h1V6H2Zm4 4h1v-1H6Zm-1-1h1V2H5ZM3 6h1V2H3Zm5 1h1V6H8ZM4 2h1V1H4Zm3 4h1V2H7ZM6 2h1V1H6Zm0 0"
+        },
+        {
+            DinkieIconName.Rocket12,
+            "M4 12h1v-1h1v-1h1V7H6v1H5v1H4Zm-4 0h2v-1H1v-1H0Zm2-1h1V9H1v1h1Zm1-2h1V8H3ZM0 8h3V7h1V6h1V5H2v1H1v1H0Zm5-1h1V6H5Zm0-2h1V4H5Zm2 2h1V6H7ZM6 4h1V3H6Zm2 2h1V5H8ZM7 5h1V4H7Zm0-2h1V2H7Zm2 2h1V4H9Zm1-1h1V1H8v1h2ZM8 4h1V3H8Zm0 0"
+        },
+        {
+            DinkieIconName.Helicopter12,
+            "M3 10H2v1H1v1h7v-1H7v-1H6v1H3Zm0 0h1V9h1v1h1V8h1V7h1V6h3V2h-1v1H9v1h1v1H9V4H7V3H5V2h4V1H0v1h4v1H3v1h3v1H5v1H4v1H1V6H0v2h1v1h2Zm-3 1h1v-1H0Zm1-5h1V5H1Zm1-1h1V4H2Zm0 0"
+        },
+        {
+            DinkieIconName.RailwayCar12,
+            "M0 12h11v-1h-1v-1h1V5h-1V4H5V3H3v1H1v1H0v5h1v1H0Zm2-1v-1h1v1ZM1 8V6h1v2Zm3 3v-1h3v1ZM3 8V6h2v2Zm5 3v-1h1v1ZM1 3h2V2H1Zm5 5V6h2v2Zm3 0V6h1v2ZM3 2h2V1H3Zm2 1h2V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.HighSpeedTrain12,
+            "M0 12h11v-2H1v1H0Zm0-2h1V9h3V8H2V7H1v1H0Zm2-3h1V6H2Zm2 1h2V7H4ZM3 6h1V5H3Zm3 1h1V6H6ZM4 5h2V4H4Zm3 4h4V8H7Zm0-3h1V5H7Zm2 1h2V6H9ZM8 5h1V4h2V3H6v1h2Zm0 0"
+        },
+        {
+            DinkieIconName.Metro12,
+            "M2 11H1v1h1Zm0 0h1V9H2V4h1V3h5v1h1v5H8v2h1v-1h2V4h-1V2H8V1H3v1H1v2H0v6h2Zm2-1h3V9H4Zm5 2h1v-1H9ZM3 7h5V4H7v1H4V4H3Zm0 0"
+        },
+        {
+            DinkieIconName.LightRail12,
+            "M4 5H3v3H1V7H0v3h1V9h3Zm0 0h1V3h6V2H2v2h1V3h1Zm-4 7h11v-2H1v1H0Zm1-5h1V4H1Zm4 1h3V5h1V4H6v2H5Zm4 0h2V4h-1v2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Bus12,
+            "M0 11h2v-1h2v1h3v-1h2v1h2V4h-1V3H1v1H0Zm2 1h2v-1H2Zm5 0h2v-1H7ZM1 8V5h1v3Zm2-1V5h2v2Zm3 0V5h2v2Zm3 0V5h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.BusAlt12,
+            "M0 11h2v-1h2v1h3v-1h2v1h2V3h-1V2H1v1H0Zm2 1h2v-1H2ZM1 9V6h1v3Zm6 3h2v-1H7ZM1 5V4h1v1Zm2 3V6h2v2Zm0-3V4h2v1Zm3 3V6h2v2Zm0-3V4h2v1Zm3 3V6h1v2Zm0-3V4h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.Trolleybus12,
+            "M0 11h2v-1h2v1h3v-1h2v1h2V5h-1V4H6V3H4v1H1v1H0Zm2 1h2v-1H2Zm5 0h2v-1H7ZM1 9V6h1v3Zm2-1V6h2v2Zm3 0V6h2v2Zm3 0V6h1v2ZM6 3h2V2H6Zm2-1h2V1H8Zm0 0"
+        },
+        {
+            DinkieIconName.Automobile12,
+            "M0 11h2v-1h2v1h4v-1h2v1h1V7h-1V4H9V3H5v1h3v3H4V5H3v2H1v1h1v1H1V8H0Zm2 1h2v-1H2Zm6 0h2v-1H8ZM4 5h1V4H4Zm5-2h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Automobile10,
+            "M0 9h1V8h2v1h3V8h2v1h1V6H8V4H7V3H4v1h2v2H3V5H2v1H0Zm1 1h2V9H1Zm5 0h2V9H6ZM3 5h1V4H3Zm4-2h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.SuspensionRailway12,
+            "M1 12h9v-1h1V5h-1V4H9V3H8v1H7v1H4V4H3V3H2v1H1v1H0v6h1Zm0-3V7h2v2Zm3 1V7h3v3Zm4-1V7h2v2ZM0 3h2V2h1v1h5V2h1v1h2V1H0Zm0 0"
+        },
+        { DinkieIconName.Ship12, "M3 8h8V7H5V6h6V5H6V4h5V1H9v2H8V1H6v2H5v2H4v2H3ZM0 9h1V7h2V6H0Zm2 3h9V9H1v2h1Zm0 0" },
+        {
+            DinkieIconName.NoEntrySign12,
+            "M3 2H2v1H1v1h2Zm0 0h5V1H3Zm-2 8h1V9H1Zm1 1h1v-1H2ZM0 9h1V4H0Zm3 3h5v-1H3Zm5-1h1v-1h1V9H8ZM3 5h1V4H3Zm1 1h1V5H4Zm1 1h1V6H5Zm1 1h1V7H6Zm1 1h1V8H7Zm3 0h1V4h-1ZM8 3h1V2H8Zm1 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.SmokingSymbol12,
+            "M1 12h10V9H1Zm1-1v-1h1v1Zm2 0v-1h3v1ZM1 8h1V5H1ZM0 5h1V2H0Zm3 1h1V3H3ZM1 2h1V1H1Zm3 1h1V2H4Zm0 0"
+        },
+        {
+            DinkieIconName.NoSmokingSymbol12,
+            "M7 8H6v1h1Zm0 0h4V6H6v1h1Zm-5 2h1V9H2Zm1 1h1v-1H3ZM0 8h1V6H0Zm4 4h4v-1H4ZM0 5h1V3H0Zm2 3h4V7H5V6H2Zm6 3h1v-1H8Zm-1-1h1V9H7ZM2 5h1V4H2ZM1 3h1V1H1Zm2 1h1V3H3Zm6 6h1V9H9ZM5 6h1V5H5ZM4 5h1V4H4Zm0-2h4V2H4Zm4 1h1V3H8Zm1 1h1V4H9Zm0 0"
+        },
+        {
+            DinkieIconName.Restroom12,
+            "M7 10h1V8h1V7H8V5H7v2H6v1h1Zm-7 1h1V2H0Zm1 1h9v-1H1Zm2-2h1V6h1V5H2v1h1Zm0-6h1V3H3Zm7 7h1V2h-1ZM1 2h9V1H1Zm6 2h1V3H7Zm0 0"
+        },
+        {
+            DinkieIconName.RestroomFilled12,
+            "M1 12h9v-1h1V2h-1V1H1v1H0v9h1Zm2-2V6H2V5h3v1H4v4Zm4 0V8H6V7h1V5h1v2h1v1H8v2ZM3 4V3h1v1Zm4 0V3h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.RestroomFilled10,
+            "M1 10h7V9h1V2H8V1H1v1H0v7h1Zm1-1V5H1V4h3v1H3v4Zm0-6V2h1v1Zm4 6V7H5V6h1V4h1v2h1v1H7v2Zm0-6V2h1v1Zm0 0"
+        },
+        { DinkieIconName.Toilet12, "M2 12h8V7H8V4h2v3h1V1H7v4H0v3h1V6h6v2h2v3H7V8H1v1h1Zm1-1V9h3v2Zm5-8V2h2v1Zm0 0" },
+        {
+            DinkieIconName.CircledInformationSource12,
+            "M4 9h3V8H6V5H4v1h1v2H4Zm-3 1h1V9H1Zm1 1h1v-1H2ZM0 9h1V4H0Zm3 3h5v-1H3Zm5-1h1v-1H8ZM1 4h1V3H1Zm8 6h1V9H9ZM2 3h1V2H2Zm3 1h1V3H5Zm5 5h1V4h-1ZM3 2h5V1H3Zm6 2h1V3H9ZM8 3h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.CircledInformationSourceFilled12,
+            "M3 12h5v-1h2V9h1V4h-1V2H8V1H3v1H1v2H0v5h1v2h2Zm1-3V8h1V6H4V5h2v3h1v1Zm1-5V3h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.CircledInformationSourceFilled10,
+            "M2 10h5V9h1V8h1V3H8V2H7V1H2v1H1v1H0v5h1v1h1Zm1-2V7h1V6H3V5h2v2h1v1Zm1-4V3h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.CircledInformationSource10,
+            "M3 8h3V7H5V5H3v1h1v1H3ZM1 9h1V8H1ZM0 8h1V3H0Zm2 2h5V9H2Zm5-1h1V8H7ZM1 3h1V2H1Zm3 1h1V3H4Zm4 4h1V3H8ZM2 2h5V1H2Zm5 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.ShoppingTrolley12,
+            "M2 12h2v-2h4v2h2v-2H9V2H8v1H0v4h1V6h1v1H1v1h7v1H0v1h2ZM1 5V4h1v1Zm2 2V6h1v1Zm0-2V4h1v1Zm2 2V6h1v1Zm0-2V4h1v1Zm2 2V6h1v1Zm0-2V4h1v1Zm2-3h2V1H9Zm0 0"
+        },
+        {
+            DinkieIconName.ShoppingTrolley10,
+            "M1 10h2V9h3v1h2V8H7V2H0v4h1V5h1v1H1v1h5v1H0v1h1Zm0-6V3h1v1Zm2 2V5h1v1Zm0-2V3h1v1Zm2 2V5h1v1Zm0-2V3h1v1Zm2-2h2V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.Elevator12,
+            "M0 11h1V7h9v4h1V6H0Zm1 1h9v-1H8v-1H7v1H6v-1H5v1H4v-1H3v1H1Zm2-3h1V8H3Zm2 0h1V8H5Zm2 0h1V8H7ZM3 5h1V3h1V2H4V1H3v1H2v1h1Zm4 0h1V4h1V3H8V1H7v2H6v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.ElevatorFilled12,
+            "M1 12h9v-1h1V6H0v5h1Zm2-1V9h1v2Zm2 0V9h1v2ZM3 8V7h1v1Zm4 3V9h1v2ZM5 8V7h1v1Zm2 0V7h1v1ZM3 5h1V3h1V2H4V1H3v1H2v1h1Zm4 0h1V4h1V3H8V1H7v2H6v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.ElevatorFilled10,
+            "M1 10h7V9h1V6H0v3h1Zm1-1V7h1v2Zm2 0V7h1v2Zm2 0V7h1v2ZM2 5h1V3h1V2H3V1H2v1H1v1h1Zm4 0h1V4h1V3H7V1H6v2H5v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.Shield12,
+            "M9 8H8v2h1Zm0 0h1V3H8V2H6v4h3Zm-6 3h1v-1H3Zm-1-1h1V8H2Zm2 2h3v-1H6V6H5v5H4Zm3-1h1v-1H7ZM1 8h1V6h3V2H3v1H1Zm4-6h1V1H5Zm0 0"
+        },
+        {
+            DinkieIconName.Satellite12,
+            "M8 12h1v-1h1v-1h1V9h-1V8H9V7H8v1H7v1H6v1h1v1h1Zm-6-1h2v-1H2Zm-1-1h1V8H1Zm1-2h1V7H2Zm2 2h1V9H4Zm1-1h1V8H5ZM3 7h1V6H3Zm3 1h1V7H6ZM5 7h1V6H5ZM4 6h1V5H4ZM2 6h1V5h1V4h1V3H4V2H3V1H2v1H1v1H0v1h1v1h1Zm3-1h2V4H5Zm2 2h1V5H7Zm0-3h1V2H7Zm1 1h2V4H8Zm0-3h2V1H8Zm2 2h1V2h-1Zm0 0"
+        },
+        {
+            DinkieIconName.FlyingSaucer12,
+            "M2 7h7V6h1V5H8v1H3V5H1v1h1Zm-2 4h1v-1H0Zm1 1h3v-1H1ZM0 8h1V6H0Zm1 1h9V8H1Zm2-4h1V4H3Zm1-1h3V3H4Zm3 1h1V4H7Zm3 3h1V6h-1ZM8 3h2V2H8Zm2 1h1V3h-1Zm0 0"
+        },
+        {
+            DinkieIconName.ZipperMouthFace12,
+            "M4 10h1V9h1v1h1V9h1V8H7V7H6v1H5V7H4v1H3v1h1Zm-3 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm3-4h1V4H3ZM1 3h1V2H1Zm7 7h1V9H8ZM7 6h1V4H7ZM2 2h7V1H2Zm8 8h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.MoneyMouthFace12,
+            "M7 8h1V7h1V6H8V5H7v1H6v1h1Zm-6 3h1v-1H1Zm1 1h1v-1H2Zm-2-2h1V3H0Zm3 0h1V9H3Zm1 1h3v-1H4Zm4 1h1v-1H8ZM3 8h1V7h1V6H4V5H3v1H2v1h1Zm4 2h1V9H7ZM2 5h1V4H2Zm7 6h1v-1H9ZM1 3h1V2H1Zm3 2h1V4H4Zm2 0h1V4H6ZM2 2h7V1H2Zm8 8h1V3h-1ZM8 5h1V4H8Zm1-2h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.NerdFace12,
+            "M1 8h4V6h1v2h4V6h1V5h-1V4H6v1H5V4H1v1H0v1h1Zm0 3h1v-1H1Zm-1-1h1V9H0Zm2 2h7v-1H2Zm2-2h3V9H4ZM0 4h1V3H0Zm1-1h1V2H1Zm1 4V5h2v2Zm7 4h1v-1H9Zm1-1h1V9h-1ZM7 7V5h2v2ZM2 2h7V1H2Zm7 1h1V2H9Zm1 1h1V3h-1Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithHeadBandage12,
+            "M10 10H9v1h1Zm0 0h1V3h-1v4H9v1h1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V7h1V6H1V5h1V4H1V3H0Zm4-1h2V8H4Zm2 1h1V9H6ZM3 7h1V6h1V5H2v1h1ZM1 3h1V2H1Zm1 1h2V3H2Zm4 3h1V6h1V5H7V4H5v1h1Zm2 0h1V6H8ZM4 3h1V2h4V1H2v1h2Zm3 1h2V3H7Zm2-1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.RobotFace12,
+            "M2 12h7v-1H8V9H3v2H2Zm-1-1h1V5H1v1H0v3h1Zm3 0v-1h3v1ZM3 8h2V6H3Zm3 0h2V6H6ZM2 5h7V4H6V3H5v1H2Zm7 6h1V9h1V6h-1V5H9ZM4 3h1V2h1v1h1V1H4Zm0 0"
+        },
+        {
+            DinkieIconName.Handshake12,
+            "M10 9H9v1h1Zm0 0h1V1H9v1H5v1h4v1h1v2H9v1h1Zm-7 3h5v-1H6V9H5V8H1v2h1V9h2v1h1v1H4v-1H2v1h1ZM0 8h1V6h1V3h2V2H2V1H0Zm8 3h1v-1H8ZM3 7h2V6H4V4H3Zm2-1h1V5H5ZM4 4h1V3H4Zm4 2h1V5H8ZM6 5h2V4H6Zm0 0"
+        },
+        {
+            DinkieIconName.GrinningFaceWithStarEyes12,
+            "M3 10h1V9h3v1h1V8H3Zm-2 1h1v-1H1Zm1 1h1v-1H2Zm-2-2h1V3H0Zm4 1h3v-1H4ZM2 7h1V6H2Zm6 5h1v-1H8ZM4 7h1V6H4Zm5 4h1v-1H9ZM1 3h1V2H1Zm2 3h1V5h1V4H4V3H3v1H2v1h1Zm3 1h1V6H6Zm2 0h1V6H8ZM7 6h1V5h1V4H8V3H7v1H6v1h1ZM2 2h7V1H2Zm8 8h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Grinningfacewithonelargeandoneeye12,
+            "M3 12h2v-1H4v-1h1v1h1v-1h1V9H3Zm-2-1h1v-1H1Zm-1-1h1V3H0Zm7 2h2v-1H7ZM2 7h2V5H2Zm7 4h1v-1H9ZM1 3h1V2H1Zm6 6h1V8H7ZM6 7h2V6H6ZM5 6h1V5h1V4h1V3H5Zm3 0h1V4H8Zm2 4h1V3h-1ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithOpenMouthVomiting12,
+            "M2 12h7v-1H7v-1h1V7H7v1H4V7H3v3h1v1H2Zm-1-2h1V9H1ZM0 9h1V3H0Zm2-4h2V4H2ZM1 3h1V2H1Zm3 4h3V6H4Zm5 3h1V9H9ZM4 4h1V3H4Zm2 0h1V3H6Zm1 1h2V4H7ZM2 2h7V1H2Zm8 7h1V3h-1ZM9 3h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.ShockedFaceWithExplodingHead12,
+            "M3 11h5V9H7v1H4V9H3Zm-2 1h1v-1H1Zm-1-1h1V5H0Zm2-3h1V7H2Zm2 1h3V8H4ZM1 5h1V4H1Zm8 7h1v-1H9ZM1 3h1V2H1ZM0 2h1V1H0Zm2 4h7V5H2Zm6 2h1V7H8ZM4 4h1V3H4ZM3 3h1V2H3Zm7 8h1V5h-1ZM6 4h1V3H6ZM5 3h1V1H5Zm4 2h1V4H9ZM7 2h1V1H7Zm2 1h1V2H9Zm1-1h1V1h-1Zm0 0"
+        },
+        {
+            DinkieIconName.Shrug12,
+            "M3 12h5v-2h1v1h1V6H9v3H8V7H6v1H5V7H3v2h1v2H3Zm-2-1h1v-1h1V9H2V6H1ZM0 6h1V5H0Zm4 0h3V5H4ZM3 5h1V4h1V3h1v1h1v1h1V2H7V1H4v1H3Zm7 1h1V5h-1Zm0 0"
+        },
+        {
+            DinkieIconName.WiltedFlower12,
+            "M9 11H8v1h1Zm0 0h2v-1h-1V7H9V6H6v1h1v2h1v1h1Zm-9 0h1V9H0Zm2 1h1V3H2v2H1v1h1v2H1v1h1Zm4 0h1v-1H6Zm-2-1h2v-1h1V9H6V7H5v3H4Zm0-5h1V5H4Zm3 5h1v-1H7ZM3 3h1V2H3Zm2 2h1V4H5ZM4 2h2V1H4Zm3 3h2V4H8V3H7ZM6 3h1V2H6Zm3 1h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.DrumWithDrumsticks12,
+            "M2 12h7v-1H8V9h1V8H2v1h1v2H2Zm-1-1h1v-1H1Zm-1-1h1V8h1V7H1V5H0Zm4 1V9h3v2ZM1 5h1V4H1Zm3 2h1V5H4Zm5 4h1v-1H9ZM3 5h1V3H3ZM2 3h1V1H2Zm4 4h1V5H6ZM5 4h1V3H5Zm5 6h1V5h-1v2H9v1h1ZM7 5h1V3H7Zm2 0h1V4H9ZM8 3h1V1H8Zm0 0"
+        },
+        {
+            DinkieIconName.Carrot12,
+            "M10 5h1V3h-1V2H9V1H7v1h1v2h2ZM0 12h3v-1H1V9H0Zm1-3h1V7H1Zm2 2h2v-1H3Zm2-1h1V9H5ZM2 7h1V6H2Zm4 2h1V8H6ZM3 6h1V5H3Zm4 2h1V7H7ZM4 5h1V4H4Zm4 2h1V5H8ZM5 4h2V3H5Zm2 1h1V4H7Zm3-3h1V1h-1Zm0 0"
+        },
+        {
+            DinkieIconName.CupWithStraw12,
+            "M3 12h5v-1h1V3H7V2h3V1H6v2H2v8h1Zm2-1v-1h1v1ZM4 8V7h1v1Zm2 1V8h1v1ZM3 6V4h5v2H7V5H6v1Zm0 0"
+        },
+        {
+            DinkieIconName.Coconut12,
+            "M3 12h5v-1h1v-1h1V9h1V4h-1v3H9v1H2V7H1V4H0v5h1v1h1v1h1ZM2 6h1V5H2ZM1 4h1V3H1Zm2 3h5V6H3ZM2 3h7V2H2Zm6 3h1V5H8Zm1-2h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.Sandwich12,
+            "M8 12h3V2h-1v4H9v1h1v1H8V7H6V6H4V5H2V3h1V2h7V1H1v3H0v1h1v3h1V6h1v1h2v1h2v1h2v1h1v1H8ZM2 9h2V8H2Zm2 1h2V9H4Zm2 1h2v-1H6ZM3 4h2V3H3Zm2 1h2V4H5Zm2 1h2V5H7Zm0 0"
+        },
+        {
+            DinkieIconName.LeafyGreen12,
+            "M3 11H1v1h2Zm0 0h6v-1h1V9h1V6h-1V5h1V2h-1V1H7v1H5V1H3v1H2v2H1v5h1V6h1V4h1V3h1v1H4v2H3v2h1V7h1V6h1V5h1V4h1V3h1v1H8v1H7v1H6v1H5v1H4v1h3V8h2V7h1v1H9v1H7v1H3Zm-3 0h1V9H0Zm0 0"
+        },
+        {
+            DinkieIconName.Mango12,
+            "M3 4H2v1H1V3H0v4h1V6h1v3h1Zm0 0h1V3h3V2H5V1H3v1H1v1h2Zm0 6h1V9H3Zm1 1h1v-1H4Zm1 1h5v-1H5Zm5-1h1V9h-1ZM9 9h1V7H9ZM8 7h1V4H8ZM7 4h1V3H7Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithPartyHornAndPartyHat12,
+            "M5 10h5V9H6V8H5Zm-5 2h1v-1H0Zm2-1h1v-1H2Zm-1-1h1V5H1Zm2 2h5v-1H3Zm0-5h2V6H3ZM2 5h1V4H2ZM0 5h1V2h1V1H0Zm2-2h1V2H2Zm4 4h2V6H6ZM3 4h5V3H3Zm7 5h1V8h-1ZM9 7h1V5H9ZM8 5h1V4H8ZM5 2h1V1H5Zm5 2h1V3h-1ZM8 2h1V1H8Zm0 0"
+        },
+        {
+            DinkieIconName.FaceWithPleadingEyes12,
+            "M10 10H9v1h1Zm0 0h1V3h-1Zm-9 1h1v-1H1Zm1 1h7v-1H2Zm-2-2h1V3H0Zm4 0h1V9H4ZM3 8h1V6H3Zm3 2h1V9H6ZM5 9h1V8H5ZM2 5h2V4H2ZM1 3h1V2H1Zm6 5h1V6H7ZM4 4h1V3H4Zm2 0h1V3H6Zm1 1h2V4H7ZM2 2h7V1H2Zm7 1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Crab12,
+            "M0 10h4V7h3v3h4V9H8V8h2V7H8V6H7V5H6v1H5V5H4v1H3v1H1v1h2v1H0Zm1 2h3v-1H1ZM0 7h1V6H0Zm4 4h3v-1H4Zm3 1h3v-1H7ZM2 6h1V4H2ZM1 4h1V2H1Zm2 0h1V3H3Zm5 2h1V4H8Zm2 1h1V6h-1ZM7 4h1V3H7Zm2 0h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Microbe12,
+            "M10 9h1V7H9V6h2V4h-1v1H8v1H7v1h1v1h2Zm-9 2h1v-1H1Zm1-1h1V9H2Zm1 2h2v-2h1v2h2v-1H7V9H4v2H3Zm0-3h1V8H3ZM0 9h1V8h2V7h1V6H3V5H1V4H0v2h2v1H0Zm5-1h1V7H5Zm2 1h1V8H7ZM3 5h1V4H3ZM2 4h1V3H2ZM1 3h1V2H1Zm7 7h1V9H8Zm1 1h1v-1H9ZM5 6h1V5H5ZM4 4h3V2h1V1H6v2H5V1H3v1h1Zm3 1h1V4H7Zm1-1h1V3H8Zm1-1h1V2H9Zm0 0"
+        },
+        {
+            DinkieIconName.Swan12,
+            "M10 9H9v1h1Zm0 0h1V7H9V6H6V2H5v4H4v1h4v1h2ZM0 11h1V7H0Zm1 1h7v-1H1Zm0-5h1V6H1Zm2 2h1V7H3ZM0 5h1V4H0Zm5 5h2V9H5ZM2 6h1V5H2Zm6 5h1v-1H8ZM3 5h1V3H2V2H1v2h2ZM2 2h3V1H2Zm5 7h1V8H7Zm0 0"
+        },
+        {
+            DinkieIconName.Onion12,
+            "M4 12h1v-1h1v1h1v-1h2v-1H8V9H7v1H6V9H5v1H4V9H3v1H2v1h2Zm-3-2h1V9H1ZM0 9h1V5H0Zm2 0h1V6H2Zm2 0h1V7H4ZM1 5h1V4H1Zm2 1h1V5H3Zm3 3h1V7H6ZM2 4h1V3H2Zm3 3h1V6H5Zm4 3h1V9H9ZM4 5h1V4H4ZM3 3h1V2H3Zm5 6h1V6H8ZM6 5h1V4H6Zm1 1h1V5H7ZM5 4h1V3H5ZM4 2h1V1H4Zm6 7h1V5h-1ZM6 2h1V1H6Zm2 2h1V3H8Zm1 1h1V4H9ZM7 3h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Adult12,
+            "M0 12h11v-2h-1v1H6v-1H5v1H1v-1H0Zm1-2h1V9H1Zm1-1h2V8H2Zm2 1h1V9H4Zm2 0h1V9H6ZM3 7h1V6H3Zm1 1h3V7H4ZM2 6h1V5h1V4H3V2H2Zm5 3h2V8H7Zm2 1h1V9H9ZM7 7h1V6H7ZM4 4h3V3H4Zm4 2h1V2H8v2H7v1h1ZM3 2h5V1H3Zm0 0"
+        },
+        {
+            DinkieIconName.AdultFilled12,
+            "M0 12h11v-2h-1V9H9V8H7v1H6v1H5V9H4V8H2v1H1v1H0Zm3-5h5V6h1V2H8V1H3v1H2v4h1Zm0-2V4h1V3h3v1h1v1H7V4H4v1Zm0 0"
+        },
+        {
+            DinkieIconName.AdultFilled10,
+            "M1 5h1V4h1V3h3v1h1v1h1V2H7V1H2v1H1Zm-1 5h9V8H8V7H6v1H5v1H4V8H3V7H1v1H0Zm2-4h5V5H6V4H3v1H2Zm0 0"
+        },
+        {
+            DinkieIconName.Adult10,
+            "M0 10h9V8H8v1H5V8H4v1H1V8H0Zm1-2h1V7H1Zm2 0h1V7h1v1h1V7h1V6H2v1h1ZM1 6h1V5h1V4H2V2H1Zm6 2h1V7H7ZM3 4h3V3H3ZM2 2h5V1H2Zm5 4h1V2H7v2H6v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.BilledCap12,
+            "M5 4h3V3h1V2H4v1h1Zm-5 6h3V9H1V8H0Zm3 1h3v-1H3ZM1 8h1V7H1Zm5 2h2V9H6ZM2 7h3V6H3V4H2Zm3 1h3V7H5ZM3 4h1V3H3Zm5 5h2V8H8Zm2-1h1V4h-1ZM9 4h1V3H9Zm0 0"
+        },
+        {
+            DinkieIconName.BilledCap10,
+            "M1 7H0v2h3V8H1Zm0 0h4V6H2V4H1Zm2 3h3V9H3Zm3-1h1V8h1V7H5v1h1ZM2 4h1V3H2Zm2 0h2V3h1V2H3v1h1Zm4 3h1V4H8ZM7 4h1V3H7Zm0 0"
+        },
+        {
+            DinkieIconName.JigsawPuzzlePiece12,
+            "M4 12h3v-2h3V7H8V6h2V3H7V1H4v2H1v3h2v1H1v3h3Zm1-1V9H2V8h2V5H2V4h3V2h1v2h3v1H7v3h2v1H6v2Zm0 0"
+        },
+        {
+            DinkieIconName.JigsawPuzzlePiece10,
+            "M3 10h3V9h2V6H7V5h1V2H6V1H3v1H1v3h1v1H1v3h2Zm1-1V8H2V7h1V4H2V3h2V2h1v1h2v1H6v3h1v1H5v1Zm0 0"
+        },
+        {
+            DinkieIconName.TestTube12,
+            "M1 12h3v-1h1v-1h1V9h1V8h1V7h1V6h1V5H5V4H4v1H3v1H2v1H1v1H0v3h1Zm1-2V9h1v1Zm1-2V7h1v1Zm3-1V6h1v1ZM5 4h1V3H5Zm1-1h1V2H6Zm4 2h1V4h-1ZM9 4h1V3H9ZM8 3h1V2H8ZM7 2h1V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.PetriDish12,
+            "M2 12h7v-1h1v-1h1V5h-1v1H9V5H2v1H1V5H0v5h1v1h1Zm1-4V7h1v1Zm-1 2V9H1V8h1v1h7V8h1v1H9v1ZM1 5h1V4H1Zm5 3V7H5V6h1v1h1V6h1v1H7v1ZM2 4h7V3H2Zm7 1h1V4H9Zm0 0"
+        },
+        {
+            DinkieIconName.DnaDoubleHelix12,
+            "M10 12h1V9h-1V8H9V7H2V6H1V4H0v3h1v1h1v1h7v1h1Zm-5 0h1v-2H5Zm2 0h1v-1H7ZM2 6h1V5H2Zm6 5h1v-1H8ZM5 6h1V3H5V2H4V1H0v2h4v1h1ZM3 5h1V4H3Zm0 0"
+        },
+        {
+            DinkieIconName.Compass12,
+            "M3 9h2V8h2V6h1V4H6v1H4v2H3Zm-2 1h1V9H1Zm1 1h1v-1H2ZM0 9h1V4H0Zm3 3h5v-1H3Zm5-1h1v-1H8ZM1 4h1V3H1Zm4 3V6h1v1Zm4 3h1V9H9ZM2 3h1V2H2Zm8 6h1V4h-1ZM3 2h5V1H3Zm6 2h1V3H9ZM8 3h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.CompassFilled12,
+            "M3 12h5v-1h2V9h1V4h-1V2H8V1H3v1H1v2H0v5h1v2h2Zm0-3V7h1V5h2V4h2v2H7v2H5v1Zm2-2h1V6H5Zm0 0"
+        },
+        {
+            DinkieIconName.Compass10,
+            "M2 10h5V9h1V8h1V3H8V2H7V1H2v1H1v1H0v5h1v1h1Zm0-2V6h1V4h2V3h2v2H6v2H4v1Zm2-2h1V5H4Zm0 0"
+        },
+        {
+            DinkieIconName.Abacus12,
+            "M0 12h11V1H0Zm1-1V6h2v1H2v1h1v1H2v1h1v1Zm3 0v-1h1V9H4V8h1V7H4V6h3v3H6v1h1v1ZM1 5V2h2v1H2v1h1v1Zm7 6v-1h1V9H8V6h2v5ZM4 5V4h1V3H4V2h3v1H6v1h1v1Zm4 0V4h1V3H8V2h2v3Zm0 0"
+        },
+        {
+            DinkieIconName.Magnet12,
+            "M7 12h4V4h-1v4H8V5H7Zm-7 0h4V5H3v3H1V4H0Zm1-1V9h2v2Zm0-7h1V3H1Zm7 7V9h2v2ZM2 3h1V2H2Zm2 2h3V4H4ZM3 2h5V1H3Zm6 2h1V3H9ZM8 3h1V2H8Zm0 0"
+        },
+        { DinkieIconName.MagnetFilled12, "M1 9h3V5h1V4h1v1h1v4h3V3H9V2H8V1H3v1H2v1H1Zm0 3h3v-2H1Zm6 0h3v-2H7Zm0 0" },
+        {
+            DinkieIconName.Basket12,
+            "M1 11h9v-1H7V9h3v1h1V4h-1V2H9v2H8V2H7v2H4V2H3v2H2V2H1v2H0v6h1V9h1v1H1Zm0-3V7h1v1Zm2 2V9h1v1ZM1 6V5h1v1Zm2 2V7h1v1Zm2 2V9h1v1ZM3 6V5h1v1Zm2 2V7h1v1Zm0-2V5h1v1Zm2 2V7h3v1ZM2 2h1V1H2Zm5 4V5h3v1Zm1-4h1V1H8Zm0 0"
+        },
+        { DinkieIconName.DropOfBlood12, "M3 12h5v-1h1V7H8V5H7V3H6V1H5v2H4v2H3v2H2v4h1Zm3-2V9h1v1Zm0-2V6h1v2Zm0 0" },
+        {
+            DinkieIconName.Kite12,
+            "M6 12h1v-1h1v-1H7V5h3v1h1V4h-1V3H9v1H7V2h1V1H5v1h1v2H4V3H3v1H2v2h1V5h3v1H5v2h1v2H5v1h1Zm-6 0h3v-1H0Zm3-1h1v-1H3Zm1-1h1V8H4ZM3 8h1V6H3Zm5 2h1V8H8ZM4 3h1V2H4Zm5 5h1V6H9ZM8 3h1V2H8Zm0 0"
+        },
+        {
+            DinkieIconName.MagicWand12,
+            "M1 12h1v-1h1v-1h1V9h1V8h1V7h1V6H6V5H5v1H4v1H3v1H2v1H1v1H0v1h1Zm2-8h2V3H3Zm5 5h1V7H8ZM6 5h1V4H6Zm1 1h1V5H7ZM6 3h1V1H6Zm3 3h2V5H9ZM8 4h1V3H8Zm1-1h1V2H9Zm0 0"
+        },
+        { DinkieIconName.Axe12, "M0 11h7V6h2V5H6v3H1V5H0Zm1-1V9h5v1Zm8-3h2V3H6V2H1v3h1V3h3v2h1V4h4v2H9Zm0 0" },
+        { DinkieIconName.AxeFilled12, "M0 11h7V6H6V2H1v4H0Zm1-1V9h5v1Zm8-4h2V3H7v2h2Zm0 0" },
+        {
+            DinkieIconName.Banjo12,
+            "M1 12h3v-1h1V8H4v1H3v1H2v1H1Zm-1-1h1v-1h1V9h1V8h1V7H1v1H0Zm5-4h1V6H5Zm1-1h1V5H6Zm1-1h1V4H7Zm1-1h1V3H8Zm1-1h2V2h-1V1H9Zm0 0"
+        },
+        {
+            DinkieIconName.Accordion12,
+            "M1 11h4V2H1v1h2v1H2v1h1v1H2v1h1v1H2v1h1v1H1Zm-1-1h1V3H0Zm6 1h1V2H6Zm3-2V8h1v1Zm-1 2h3V2H8Zm1-4V6h1v1Zm0-2V4h1v1Zm0 0"
+        },
+        {
+            DinkieIconName.Hook12,
+            "M4 12h4v-1h1V8H8v1H7v1H4V8h1V7h1V6h1V4h1V2H7V1H4v1H3v2h1v1h1v1H4v1H3v1H2v2h1v1h1Zm1-8V2h1v2Zm0 0"
+        },
+        {
+            DinkieIconName.Placard12,
+            "M0 12h11v-1H9V9h2V1H0v8h2v2H0Zm3-1V9h5v2ZM1 8V2h9v6Zm3-1h1V6H4Zm2 0h1V6H6ZM5 6h1V5h2V4H6V3H5v1H3v1h2Zm0 0"
+        },
+        {
+            DinkieIconName.PlacardAlt12,
+            "M0 12h11v-1H9V9h2V1H0v8h2v2H0Zm3-1V9h5v2ZM1 8V2h9v6Zm2-2h1V5H3Zm0-2h1V3H3Zm2 2h3V5H5Zm0-2h3V3H5Zm0 0"
+        },
+        {
+            DinkieIconName.Placard10,
+            "M0 10h9V9H7V7h2V1H0v6h2v2H0Zm3-1V7h3v2ZM1 6V2h7v4Zm2-1h1V4H3ZM2 4h1V3H2Zm3 1h1V4H5ZM4 4h1V3H4Zm2 0h1V3H6Zm0 0"
+        },
+        {
+            DinkieIconName.PottedPlant12,
+            "M2 8h1V7h5v1h1V6H6V3H4v1h1v2H2Zm1 4h5V8H3Zm1-1V9h3v2ZM0 5h4V4H2V3H1v1H0Zm2-2h2V2H2Zm4 0h1V2H6Zm1 1h4V3h-1V2H9v1H7Zm0-2h2V1H7Zm0 0"
+        },
+        {
+            DinkieIconName.Github12,
+            "M2 12h2v-1H3v-1H2V9H1V8h1v1h1v1h1V9h1V8H3V7H2V4h1V2h1v1h3V2h1v2h1v3H8v1H6v1h1v3h2v-1h1v-1h1V3h-1V2H9V1H2v1H1v1H0v7h1v1h1Zm0 0"
+        },
+        {
+            DinkieIconName.Github10,
+            "M6 10h1V9h1V8h1V3H8V2H7V1H2v1H1v1H0v5h1V7h1v1h1V7h1V6H3V5H2V3h1V2h1v1h1V2h1v1h1v2H6v1H5v1h1Zm-4 0h1V9H2ZM1 9h1V8H1Zm0 0"
+        },
+        {
+            DinkieIconName.Twitter12,
+            "M9 9H8v1h1Zm0 0h1V6h1V5h-1V4h1V3H9Zm-8 2h2v-1H1Zm2 1h4v-1H3Zm0-2h1V9H3ZM2 9h1V8H2ZM1 8h1V6H1ZM0 6h1V4h1V3H1V2H0Zm7 5h1v-1H7ZM2 5h4V3H5v1H2Zm4-2h3V2H6Zm0 0"
+        },
+        {
+            DinkieIconName.Twitter10,
+            "M7 8H6v1h1Zm0 0h1V6h1V5H8V4h1V3H7ZM0 9h2V8H0Zm2 1h4V9H2Zm0-2h1V7H2ZM1 7h1V6H1ZM0 6h1V4h1V3H1V2H0Zm2-1h3V3H4v1H2Zm3-2h2V2H5Zm0 0"
+        },
+        {
+            DinkieIconName.Wechat12,
+            "M5 6H4v2H2v1h2v1h1Zm0 0h5V5H9V3H8v2H5Zm-4 4h1V9H1Zm0-2h1V7H1ZM0 7h1V3H0Zm5 4h5v-1H5ZM1 3h1V2H1Zm9 9h1v-1h-1ZM6 8h1V7H6ZM3 4h1V3H3Zm5 4h1V7H8ZM5 4h1V3H5Zm5 6h1V6h-1ZM2 2h5V1H2Zm5 1h1V2H7Zm0 0"
+        },
+        {
+            DinkieIconName.Wechat10,
+            "M3 5H2v1H1v1h1v1h1Zm0 0h5V4H7V2H6v2H5V3H4v1H3ZM0 8h1V7H0Zm0-2h1V2H0Zm3 3h5V8H3Zm1-2h1V6H4ZM2 4h1V3H2Zm6 6h1V9H8ZM6 7h1V6H6ZM1 2h5V1H1Zm7 6h1V5H8Zm0 0"
+        },
+    };
+}

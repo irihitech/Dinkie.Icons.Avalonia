@@ -1,0 +1,29 @@
+<Window
+    x:Class="Dinkie.Icons.Demo.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:demo="clr-namespace:Dinkie.Icons.Demo"
+    xmlns:icons="clr-namespace:Dinkie.Icons;assembly=Dinkie.Icons"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Dinkie.Icons.Demo"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <ItemsControl ItemsSource="{Binding $parent[demo:MainWindow].Names}">
+        <ItemsControl.ItemTemplate>
+            <DataTemplate DataType="icons:DinkieIconName">
+                <icons:DinkieIcon
+                    Width="12"
+                    Height="12"
+                    Margin="4"
+                    IconName="{Binding}" />
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <WrapPanel />
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+    </ItemsControl>
+</Window>
