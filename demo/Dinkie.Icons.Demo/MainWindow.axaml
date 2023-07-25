@@ -10,28 +10,31 @@
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
-    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
-        <ItemsControl Grid.IsSharedSizeScope="True" ItemsSource="{Binding $parent[demo:MainWindow].Names}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate DataType="icons:DinkieIconName">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="Icon" />
-                            <ColumnDefinition Width="Auto" SharedSizeGroup="Description" />
-                        </Grid.ColumnDefinitions>
-                        <icons:DinkieIcon
-                            Grid.Column="0"
-                            Margin="4"
-                            IconName="{Binding}" />
-                        <TextBlock Grid.Column="1" Text="{Binding}" />
-                    </Grid>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <WrapPanel />
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-        </ItemsControl>
-    </ScrollViewer>
+    <StackPanel>
+        <icons:DinkieIcon Foreground="Red" IconName="Cherries12" />
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+            <ItemsControl Grid.IsSharedSizeScope="True" ItemsSource="{Binding $parent[demo:MainWindow].Names}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate DataType="icons:DinkieIconName">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="Icon" />
+                                <ColumnDefinition Width="Auto" SharedSizeGroup="Description" />
+                            </Grid.ColumnDefinitions>
+                            <icons:DinkieIcon
+                                Grid.Column="0"
+                                Margin="4"
+                                IconName="{Binding}" />
+                            <TextBlock Grid.Column="1" Text="{Binding}" />
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel />
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </ScrollViewer>
+    </StackPanel>
 </Window>
