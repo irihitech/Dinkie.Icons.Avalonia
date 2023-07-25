@@ -11,3 +11,7 @@ Avalonia Implementation for [Dinkie Icons](https://github.com/atelier-anchor/din
     <icons:DinkieIcon Foreground="Red" IconName="Cherries12" />
 </Window>
 ```
+
+## Glance
+
+![Glance](./assets/screenshot.png)
