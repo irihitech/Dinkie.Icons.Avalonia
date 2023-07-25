@@ -1,6 +1,8 @@
-# DinkieIcons
+# Dinkie Icons for Avalonia
 
 Avalonia Implementation for [Dinkie Icons](https://github.com/atelier-anchor/dinkie-icons)
+
+as described in original repo, this is WIP. 
 
 ## Usage
 
