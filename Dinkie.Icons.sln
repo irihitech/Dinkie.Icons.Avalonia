@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinkie.Icons", "src\Dinkie.Icons\Dinkie.Icons.csproj", "{172C7148-B597-467F-B23D-80DD6473E696}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinkie.Icons.Avalonia", "src\Dinkie.Icons.Avalonia\Dinkie.Icons.Avalonia.csproj", "{172C7148-B597-467F-B23D-80DD6473E696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinkie.Icons.Demo", "demo\Dinkie.Icons.Demo\Dinkie.Icons.Demo.csproj", "{91371283-7AA0-4B8B-A491-A67F644170FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinkie.Icons.Avalonia.Demo", "demo\Dinkie.Icons.Avalonia.Demo\Dinkie.Icons.Avalonia.Demo.csproj", "{91371283-7AA0-4B8B-A491-A67F644170FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

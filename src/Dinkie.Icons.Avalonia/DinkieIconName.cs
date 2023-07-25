@@ -1,4 +1,4 @@
-namespace Dinkie.Icons;
+namespace Dinkie.Icons.Avalonia;
 
 public enum DinkieIconName
 {

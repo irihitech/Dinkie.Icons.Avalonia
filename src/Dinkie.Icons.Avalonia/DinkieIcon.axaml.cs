@@ -4,7 +4,7 @@ using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Media;
 
-namespace Dinkie.Icons;
+namespace Dinkie.Icons.Avalonia;
 
 public sealed partial class DinkieIcon : UserControl
 {
@@ -40,19 +40,7 @@ public sealed partial class DinkieIcon : UserControl
         get => _data;
         private set => SetAndRaise(DataProperty, ref _data, value);
     }
-
-    private double _iconSize;
-
-    public static readonly DirectProperty<DinkieIcon, double> IconSizeProperty = AvaloniaProperty.RegisterDirect<DinkieIcon, double>(
-        nameof(IconSize), o => o.IconSize);
-
-    public double IconSize
-    {
-        get => _iconSize;
-        private set => SetAndRaise(IconSizeProperty, ref _iconSize, value);
-    }
     
-
     protected override void OnApplyTemplate(TemplateAppliedEventArgs e)
     {
         base.OnApplyTemplate(e);
@@ -64,7 +52,5 @@ public sealed partial class DinkieIcon : UserControl
         string? data = null;
         _factory.Value?.TryGetValue(IconName, out data);
         Data = data is null ? null : Geometry.Parse(data);
-        string s = name.ToString();
-        IconSize = s.EndsWith('0') ? 10 : 12;
     }
 }

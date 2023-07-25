@@ -20,6 +20,6 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\Dinkie.Icons\Dinkie.Icons.csproj" />
+      <ProjectReference Include="..\..\src\Dinkie.Icons.Avalonia\Dinkie.Icons.Avalonia.csproj" />
     </ItemGroup>
 </Project>

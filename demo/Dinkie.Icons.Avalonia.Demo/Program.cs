@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using System;
 
-namespace Dinkie.Icons.Demo;
+namespace Dinkie.Icons.Avalonia.Demo;
 
 class Program
 {

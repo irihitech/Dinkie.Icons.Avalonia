@@ -1,4 +1,4 @@
-namespace Dinkie.Icons;
+namespace Dinkie.Icons.Avalonia;
 
 internal static class IconDataFactory
 {
