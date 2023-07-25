@@ -10,9 +10,9 @@
     d:DesignHeight="450"
     d:DesignWidth="800"
     mc:Ignorable="d">
-    <StackPanel>
-        <icons:DinkieIcon Foreground="Red" IconName="Cherries12" />
-        <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+    <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+        <StackPanel>
+            <icons:DinkieIcon Foreground="Red" IconName="Cherries12" />
             <ItemsControl Grid.IsSharedSizeScope="True" ItemsSource="{Binding $parent[demo:MainWindow].Names}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate DataType="icons:DinkieIconName">
@@ -35,6 +35,6 @@
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
             </ItemsControl>
-        </ScrollViewer>
-    </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
 </Window>
